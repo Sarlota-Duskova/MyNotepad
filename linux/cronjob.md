@@ -1,0 +1,14 @@
+# Cronjob
+
+
+
+`# m h dom mon dow user command` `17 * 1 * * * root cd / && run-parts --report /etc/cron.hourly`
+
+* `#` = ID
+* `m` = Minute
+* `h` = Hour
+* `dom` = Day of the month
+* `mon` = Month
+* `dow` = Day of the week
+* `user` = What user the command will run as
+* `command` = What command should be run

@@ -1,0 +1,5 @@
+# Tools
+
+crackstation.net
+
+hashcat
