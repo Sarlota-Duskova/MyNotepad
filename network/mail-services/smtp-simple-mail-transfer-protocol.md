@@ -50,7 +50,7 @@
 * SMTP server listens on **port 25**.
 * Telnet client can be use to connect to an SMTP server and act as an email client (MUA) sending a message.
 
-```
+```bash
 pentester@TryHackMe$ telnet 10.10.81.251 25
 Trying 10.10.81.251...
 Connected to MACHINE_IP.

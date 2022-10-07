@@ -1,7 +1,5 @@
 # PowerShell
 
-
-
 https://learn.microsoft.com/en-us/powershell/scripting/developer/cmdlet/approved-verbs-for-windows-powershell-commands?view=powershell-7
 
 `Get-Help Command-Name -examples`
@@ -57,7 +55,9 @@ Files can be copied and moved with `Copy-Item` and `Move-Item`.
 
 `Verb-Noun | Sort-Object`
 
-**Find File:** `Get-ChildItem -Path C:\ -Include *interesting-file.txt* -File -Recurse`
+**Find File:**
+
+`Get-ChildItem -Path C:\ -Include *interesting-file.txt* -File -Recurse`
 
 * `-Recurse` for loking in subdirectories
 
@@ -89,7 +89,9 @@ Files can be copied and moved with `Copy-Item` and `Move-Item`.
 
 **How many users are on the machine:**
 
-`Get-LocalUser` `Get-LocalUser -SID <number>`
+`Get-LocalUser`
+
+`Get-LocalUser -SID <number>`
 
 **Users have their password required values set to False:**
 

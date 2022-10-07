@@ -2,11 +2,18 @@
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-**three-way handshake** When you attempt to make a connection, your computer first sends a special request to the remote server indicating that it wants to initialise a connection. This request contains something called a SYN (short for synchronise) bit, which essentially makes first contact in starting the connection process. The server will then respond with a packet containing the SYN bit, as well as another "acknowledgement" bit, called ACK. Finally, your computer will send a packet that contains the ACK bit by itself, confirming that the connection has been setup successfully.
+### three-way handshake
+
+* When you attempt to make a connection, your computer first sends a special request to the remote server indicating that it wants to initialise a connection.
+* This request contains something called a SYN (short for synchronise) bit, which essentially makes first contact in starting the connection process.
+* The server will then respond with a packet containing the SYN bit, as well as another "acknowledgement" bit, called ACK.
+* Finally, your computer will send a packet that contains the ACK bit by itself, confirming that the connection has been setup successfully.
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-The first thing that your computer does is check its local cache to see if it's already got an IP address stored for the website. Assuming the address hasn't already been found, your computer will then send a request to what's known as a recursive DNS server. These will automatically be known to the router on your network.
+* The first thing that your computer does is check its local cache to see if it's already got an IP address stored for the website.
+* Assuming the address hasn't already been found, your computer will then send a request to what's known as a recursive DNS server.
+* These will automatically be known to the router on your network.
 
 Top-Level Domain (TLD) servers are split up into extensions. So, for example, if you were searching for tryhackme.com your request would be redirected to a TLD server that handled .com domains.
 

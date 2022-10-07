@@ -1,12 +1,10 @@
 # Basics of Windows
 
-
-
 ### Alternate Data Streams (ADS)
 
-* is a file attribute specific to Windows NTFS (New Technology File System).
+* Is a file attribute specific to Windows NTFS (New Technology File System).
 * Every file has at least one data stream ($DATA), and ADS allows files to contain more than one stream of data.
-* the system environment variable for the Windows directory is %windir%.
+* The system environment variable for the Windows directory is %windir%.
 * The System Configuration utility (MSConfig)&#x20;
 * The Computer Management (compmgmt)&#x20;
 * The Local Users and Groups (lusrmgr.msc)
@@ -21,11 +19,13 @@
   * Netstat
 * the Registry Editor (regedit)
 
-**Windows Update** could run from cmd `control /name Microsoft.WindowsUpdate` Windows Defender Firewall is `WF.msc`
+**Windows Update** could run from cmd `control /name Microsoft.WindowsUpdate`
+
+Windows Defender Firewall is `WF.msc`
 
 **the Volume Shadow Copy Service (VSS)**
 
-* coordinates the required actions to create a consistent shadow copy (also known as a snapshot or a point-in-time copy) of the data that is to be backed up.&#x20;
+* Coordinates the required actions to create a consistent shadow copy (also known as a snapshot or a point-in-time copy) of the data that is to be backed up.&#x20;
 
 **smss.exe (Session Manager Subsystem) = Windows Session Manager**
 
@@ -40,18 +40,18 @@
 
 **The Windows Initialization Process, wininit.exe**
 
-* is responsible for launching services.exe (Service Control Manager), lsass.exe (Local Security Authority), and lsaiso.exe within Session 0.
+* Is responsible for launching services.exe (Service Control Manager), lsass.exe (Local Security Authority), and lsaiso.exe within Session 0.
 * This is another critical Windows process that runs in the background, along with its child processes.&#x20;
 
 &#x20;**the Service Control Manager (SCM)**
 
-* which is services.exe.
+* Which is services.exe.
 * Its primary responsibility is to handle system services: loading services, interacting with services, starting/ending services, etc.
 * It maintains a database that can be queried using a Windows built-in utility, 'sc.exe.'&#x20;
 
 **The Service Host (Host Process for Windows Services)**
 
-* or svchost.exe, is responsible for hosting and managing Windows services.&#x20;
+* svchost.exe, is responsible for hosting and managing Windows services.&#x20;
 * Since svchost.exe will always have multiple running processes on any Windows system, this process has been a target for malicious use.
 * Adversaries create malware to masquerade as this process and try to hide amongst the legitimate svchost.exe processes.
 * They can name the malware svchost.exe or misspell it slightly, such as scvhost.exe.
@@ -60,7 +60,7 @@
 
 **Local Security Authority Subsystem Service (LSASS)**
 
-* is a process in Microsoft Windows operating systems that is responsible for enforcing the security policy on the system.
+* Is a process in Microsoft Windows operating systems that is responsible for enforcing the security policy on the system.
 * It verifies users logging on to a Windows computer or server, handles password changes, and creates access tokens.
 * It also writes to the Windows Security Log.
 * It creates security tokens for SAM (Security Account Manager), AD (Active Directory), and NETLOGON.
@@ -69,7 +69,7 @@
 
 **The Windows Logon, winlogon.exe**
 
-* is responsible for handling the Secure Attention Sequence (SAS).
+* Is responsible for handling the Secure Attention Sequence (SAS).
 * This is the ALT+CTRL+DELETE key combination users press to enter their username & password.&#x20;
 * This process is also responsible for loading the user profile.
 * This is done by loading the user's NTUSER.DAT into HKCU and via userinit.exe loads the user's shell.

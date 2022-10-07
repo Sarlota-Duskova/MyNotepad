@@ -1,8 +1,6 @@
 # Cronjob
 
-
-
-`# m h dom mon dow user command` `17 * 1 * * * root cd / && run-parts --report /etc/cron.hourly`
+`# m h dom mon dow user command 17 * 1 * * * root cd / && run-parts --report /etc/cron.hourly`
 
 * `#` = ID
 * `m` = Minute

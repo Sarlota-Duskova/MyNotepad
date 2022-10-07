@@ -145,7 +145,9 @@ When run as an unprivileged user, `getcap -r /` will generate a huge amount of e
 
 Cron jobs are used to run scripts or binaries at specific times
 
-`cat /etc/crontab` `locate antivirus.sh`
+`cat /etc/crontab`
+
+`locate antivirus.sh`
 
 ## Privilege Escalation Path
 
@@ -161,7 +163,7 @@ Target computer:
 * `mount -o rw 10.10.2.12:/home/ubuntu/sharedfolder /folder`
 * create code.c
 
-```
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

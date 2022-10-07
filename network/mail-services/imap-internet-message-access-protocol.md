@@ -5,7 +5,7 @@
 * IMAP makes it possible to keep your email synchronized across multiple devices (and mail clients).
 * Default **port 143**.
 
-```
+```bash
 pentester@TryHackMe$ telnet 10.10.81.251 143
 Trying 10.10.81.251...
 Connected to MACHINE_IP.

@@ -1,6 +1,4 @@
-# SQLi
-
-SQL (Structured Query Language)
+# SQLi (Structured Query Language Injection)
 
 `admin' or 1=1--`
 

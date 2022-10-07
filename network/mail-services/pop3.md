@@ -3,7 +3,7 @@
 * Is a protocol used to download the email messages from a Mail Delivery Agent (MDA) server.
 * Default **port 110**.
 
-```
+```bash
 pentester@TryHackMe$ telnet 10.10.81.251 110
 Trying 10.10.81.251...
 Connected to MACHINE_IP.

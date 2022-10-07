@@ -1,16 +1,25 @@
 # SUID binary
 
+| user | group | others |
+| :--: | :---: | :----: |
+|  rwx |  rwx  |   rwx  |
+|  421 |  421  |   421  |
 
+{% hint style="info" %}
+r - read
 
-|     user    | group | others |
-| :---------: | :---: | :----: |
-|     rwx     |  rwx  |   rwx  |
-|     421     |  421  |   421  |
-|   r - read  |       |        |
-|  w - write  |       |        |
-| x - execute |       |        |
+w - write
 
-Example: `chmod` as `755`, then it will be: `rwxr-xr-x`. SUID (Set user ID) SGID (Set Group ID) SUID: rws-rwx-rwx GUID: rwx-rws-rwx
+x - execute
+{% endhint %}
+
+Example: `chmod` as `755`, then it will be: `rwxr-xr-x`.
+
+SUID (Set user ID): rws-rwx-rwx&#x20;
+
+SGID (Set Group ID)
+
+GUID: rwx-rws-rwx
 
 `find / -perm -u=s -type f 2>/dev/null`
 

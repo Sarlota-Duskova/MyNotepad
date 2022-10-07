@@ -3,7 +3,7 @@
 **Attack type:**
 
 * Sniper
-  * username and password and list with 3 words make 6 request
+  * Username and password and list with 3 words make 6 request.
 
 | Request Number |              Request Body             |
 | :------------: | :-----------------------------------: |
@@ -15,7 +15,7 @@
 |        6       | username=pentester\&password=intruder |
 
 * Battering ram
-  * use same word for two possition (username, password)
+  * Use same word for two possition (username, password).
 
 | Request Number |             Request Body             |
 | :------------: | :----------------------------------: |
@@ -24,7 +24,7 @@
 |        3       | username=intruder\&password=intruder |
 
 * Pitchfork
-  * it is usefull when passwords leaked
+  * It is usefull when passwords leaked.
 
 | Request Number |             Request Body            |
 | :------------: | :---------------------------------: |
@@ -33,7 +33,7 @@
 |        3       |    username=alex\&password=Sk1ll    |
 
 * Cluster bomb
-  * will iterate through every combination of the provided payload sets to ensure that every possibility has been tested
+  * Will iterate through every combination of the provided payload sets to ensure that every possibility has been tested.
 
 | Request Number |             Request Body            |
 | :------------: | :---------------------------------: |
