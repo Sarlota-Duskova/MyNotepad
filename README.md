@@ -1,3 +1,5 @@
+https://sarlots-organization.gitbook.io/my-notepad-about-stuff-related-to-it/
+
 # Table of contents
 
 ## Network
