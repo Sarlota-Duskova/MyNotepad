@@ -55,3 +55,14 @@
     * [Hydra](attacking-the-user/brute-force/hydra.md)
     * [John the Ripper](attacking-the-user/brute-force/john-the-ripper.md)
     * [Tools](attacking-the-user/brute-force/tools.md)
+
+## Web Enumeration
+
+* [Subdomain enumeration](web-enumeration/subdomain-enumeration.md)
+* [Meterpreter](web-enumeration/meterpreter.md)
+* [Metasploit](web-enumeration/metasploit.md)
+* [Msfvenom](web-enumeration/msfvenom.md)
+* [Shell](web-enumeration/shell.md)
+* [Nikto](web-enumeration/nikto.md)
+* [WPScan](web-enumeration/wpscan.md)
+* [Gobuster](web-enumeration/gobuster.md)
