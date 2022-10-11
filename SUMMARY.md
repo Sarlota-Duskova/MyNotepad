@@ -66,3 +66,9 @@
 * [Nikto](web-enumeration/nikto.md)
 * [WPScan](web-enumeration/wpscan.md)
 * [Gobuster](web-enumeration/gobuster.md)
+* [Enum4linux](web-enumeration/enum4linux.md)
+
+## Crypto
+
+* [PGP, GPG, AES](crypto/pgp-gpg-aes.md)
+* [RSA (Rivest Shamir Adleman)](crypto/rsa-rivest-shamir-adleman.md)
