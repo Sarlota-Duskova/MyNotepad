@@ -40,7 +40,7 @@ https://sarlots-organization.gitbook.io/my-notepad-about-stuff-related-to-it/
 * [SUID binary](linux/suid-binary.md)
 * [/etc/passwd](linux/etc-passwd.md)
 * [Cronjob](linux/cronjob.md)
-* [Privilage Escalation](linux/privilage-escalation.md)
+* [Privilage Escalation](linux/privilage-escalation/)
 
 ### Windows
 

@@ -6,7 +6,24 @@
   * [Bash](linux/bash.md)
   * [Cronjob](linux/cronjob.md)
   * [/etc/passwd](linux/etc-passwd.md)
-  * [Privilage Escalation](linux/privilage-escalation.md)
+  * [Privilage Escalation](linux/privilage-escalation/README.md)
+    * [Service Exploits - MySQL](linux/privilage-escalation/service-exploits-mysql.md)
+    * [Weak File Permissions - Readable /etc/shadow](linux/privilage-escalation/weak-file-permissions-readable-etc-shadow.md)
+    * [Weak File Permissions - Writable /etc/shadow](linux/privilage-escalation/weak-file-permissions-writable-etc-shadow.md)
+    * [Weak File Permissions - Writable /etc/passwd](linux/privilage-escalation/weak-file-permissions-writable-etc-passwd.md)
+    * [Sudo - Shell Escape Sequences](linux/privilage-escalation/sudo-shell-escape-sequences.md)
+    * [Sudo - Environment Variables](linux/privilage-escalation/sudo-environment-variables.md)
+    * [Cron Jobs - File Permissions](linux/privilage-escalation/cron-jobs-file-permissions.md)
+    * [Cron Jobs - PATH Environment Variable](linux/privilage-escalation/cron-jobs-path-environment-variable.md)
+    * [Cron Jobs - Wildcards](linux/privilage-escalation/cron-jobs-wildcards.md)
+    * [SUID / SGID Executables - Known Exploits](linux/privilage-escalation/suid-sgid-executables-known-exploits.md)
+    * [SUID / SGID Executables - Shared Object Injection](linux/privilage-escalation/suid-sgid-executables-shared-object-injection.md)
+    * [SUID / SGID Executables - Environment Variables](linux/privilage-escalation/suid-sgid-executables-environment-variables.md)
+    * [SUID / SGID Executables - Abusing Shell Features (#1)](linux/privilage-escalation/suid-sgid-executables-abusing-shell-features-1.md)
+    * [Passwords & Keys](linux/privilage-escalation/passwords-and-keys.md)
+    * [SUID / SGID Executables - Abusing Shell Features (#2)](linux/privilage-escalation/suid-sgid-executables-abusing-shell-features-2.md)
+    * [NFS](linux/privilage-escalation/nfs.md)
+    * [Kernel Exploits](linux/privilage-escalation/kernel-exploits.md)
   * [SUID binary](linux/suid-binary.md)
   * [VIM](linux/vim.md)
 * [malware-and-phishing](malware-and-phishing/README.md)
@@ -58,7 +75,6 @@
 
 ## Web Enumeration
 
-* [Subdomain enumeration](web-enumeration/subdomain-enumeration.md)
 * [Meterpreter](web-enumeration/meterpreter.md)
 * [Metasploit](web-enumeration/metasploit.md)
 * [Msfvenom](web-enumeration/msfvenom.md)
@@ -67,6 +83,7 @@
 * [WPScan](web-enumeration/wpscan.md)
 * [Gobuster](web-enumeration/gobuster.md)
 * [Enum4linux](web-enumeration/enum4linux.md)
+* [Subdomain enumeration](web-enumeration/subdomain-enumeration.md)
 
 ## Crypto
 
