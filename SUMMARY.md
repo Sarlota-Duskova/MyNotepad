@@ -60,7 +60,7 @@
     * [Nmap Scans](network/wireshark/nmap-scans.md)
     * [Page 3](network/wireshark/page-3.md)
     * [Page 5](network/wireshark/page-5.md)
-    * [Page 1](network/wireshark/page-1.md)
+    * [Cleartext Protocol Analysis](network/wireshark/cleartext-protocol-analysis.md)
     * [Encrypted Protocol Analysis: Decrypting HTTPS](network/wireshark/encrypted-protocol-analysis-decrypting-https.md)
     * [Page 2](network/wireshark/page-2.md)
 * [reverse-engineering](reverse-engineering/README.md)
