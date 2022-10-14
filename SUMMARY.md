@@ -59,7 +59,7 @@
   * [Wireshark](network/wireshark/README.md)
     * [Nmap Scans](network/wireshark/nmap-scans.md)
     * [Page 1](network/wireshark/page-1.md)
-    * [Page 3](network/wireshark/page-3.md)
+    * [Identifying Hosts](network/wireshark/identifying-hosts.md)
     * [Tunnelling Traffic: ICMP and DNS](network/wireshark/tunnelling-traffic-icmp-and-dns.md)
     * [Cleartext Protocol Analysis](network/wireshark/cleartext-protocol-analysis.md)
     * [Encrypted Protocol Analysis: Decrypting HTTPS](network/wireshark/encrypted-protocol-analysis-decrypting-https.md)
