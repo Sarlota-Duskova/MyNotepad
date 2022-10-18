@@ -1,5 +1,11 @@
 # Bash
 
+Stabilize shell:
+
+`python -c 'import pty;pty.spawn("/bin/bash/")'`
+
+Spawn a process, and connect its controlling terminal with the current process’s standard io. This is often used to baffle programs which insist on reading from the controlling terminal.
+
 |      Command      |             Full name             |            Purpose           |
 | :---------------: | :-------------------------------: | :--------------------------: |
 |       touch       |               touch               |          create file         |
