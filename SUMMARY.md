@@ -56,6 +56,7 @@
     * [Ping](network/active-reconnaissance/ping.md)
     * [The TELNET (Teletype Network)](network/active-reconnaissance/the-telnet-teletype-network.md)
     * [Traceroute](network/active-reconnaissance/traceroute.md)
+  * [WIFI](network/wifi.md)
   * [Wireshark](network/wireshark/README.md)
     * [Nmap Scans](network/wireshark/nmap-scans.md)
     * [ARP Poisoning/Spoofing](network/wireshark/arp-poisoning-spoofing.md)
@@ -74,6 +75,8 @@
 * [attacking-the-system](attacking-the-system/README.md)
   * [SQLi (Structured Query Language Injection)](attacking-the-system/sqli/README.md)
     * [MySQL](attacking-the-system/sqli/mysql.md)
+  * [HTTP](attacking-the-system/http.md)
+  * [PHP LFI Filter](attacking-the-system/php-lfi-filter.md)
 * [attacking-the-user](attacking-the-user/README.md)
   * [Brute Force](attacking-the-user/brute-force/README.md)
     * [Burp Suite - Intruder](attacking-the-user/brute-force/burp-suite-intruder.md)
@@ -101,3 +104,8 @@
 ## Writeups
 
 * [Overpass](writeups/overpass.md)
+
+## Red Team
+
+* [Passive recon](red-team/passive-recon.md)
+* [Active recon](red-team/active-recon.md)

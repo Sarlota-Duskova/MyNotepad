@@ -34,6 +34,16 @@ systemctl \[option] \[service] We can do four options with systemctl:
 
 
 
+Save IP address:
+
+`export IP=10.10.120.2`
+
+then:
+
+`$IP`
+
+
+
 * cmd+d => split terminal into 2
 * shif+cmd+d => undo split
 * ctrl+z => background a process
