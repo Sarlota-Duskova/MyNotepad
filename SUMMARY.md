@@ -94,6 +94,7 @@
 * [WPScan](web-enumeration/wpscan.md)
 * [Gobuster](web-enumeration/gobuster.md)
 * [Enum4linux](web-enumeration/enum4linux.md)
+* [FFUF](web-enumeration/ffuf.md)
 * [Subdomain enumeration](web-enumeration/subdomain-enumeration.md)
 
 ## Crypto
