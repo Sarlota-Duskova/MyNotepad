@@ -25,6 +25,7 @@
     * [NFS](linux/privilage-escalation/nfs.md)
     * [Kernel Exploits](linux/privilage-escalation/kernel-exploits.md)
   * [SUID binary](linux/suid-binary.md)
+  * [Regex](linux/regex.md)
   * [VIM](linux/vim.md)
 * [malware-and-phishing](malware-and-phishing/README.md)
   * [Malware](malware-and-phishing/malware.md)
