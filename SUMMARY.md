@@ -27,6 +27,7 @@
   * [SUID binary](linux/suid-binary.md)
   * [Regex](linux/regex.md)
   * [VIM](linux/vim.md)
+  * [Linux Forensics](linux/linux-forensics.md)
 * [malware-and-phishing](malware-and-phishing/README.md)
   * [Malware](malware-and-phishing/malware.md)
   * [Phishing](malware-and-phishing/phishing.md)

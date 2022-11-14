@@ -36,7 +36,7 @@ ecx, cx, ch, cl
 
 Little Endian is where the value is arranged from the least significant byte to the most significant byte:
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (1).png>)
 
 Big Endian is where the value is arranged from the most significant byte to the least significant byte.
 
