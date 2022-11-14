@@ -20,4 +20,4 @@ file elf\_file
 * Local variables and stack frames
 * As you make deeper and deeper function calls, ti grows downwards
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>

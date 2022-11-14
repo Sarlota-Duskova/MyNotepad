@@ -1,5 +1,9 @@
 # Assembly
 
+Assembler output from C source:
+
+`gcc -S code.c`
+
 **Registers:**
 
 * eip (Instruction pointer) points to the next instruction to be executed
@@ -28,4 +32,12 @@ ecx, cx, ch, cl
 
 &#x20;edx, dx, dh, dl
 
-https://docs.google.com/presentation/d/1YzGTsKpx4orRNHI3FaZtJCHlaFs6ah-YdbkRw9h3txg/edit#slide=id.g13514aafb96\_0\_1310
+{% embed url="https://docs.google.com/presentation/d/1YzGTsKpx4orRNHI3FaZtJCHlaFs6ah-YdbkRw9h3txg/edit#slide=id.g13514aafb96_0_1310" %}
+
+Little Endian is where the value is arranged from the least significant byte to the most significant byte:
+
+![](<../.gitbook/assets/image (6).png>)
+
+Big Endian is where the value is arranged from the most significant byte to the least significant byte.
+
+![](../.gitbook/assets/image.png)
