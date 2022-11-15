@@ -7,6 +7,7 @@
   * [Cronjob](linux/cronjob.md)
   * [/etc/passwd](linux/etc-passwd.md)
   * [Privilage Escalation](linux/privilage-escalation/README.md)
+    * [Privilage Escalation](linux/privilage-escalation/privilage-escalation.md)
     * [Service Exploits - MySQL](linux/privilage-escalation/service-exploits-mysql.md)
     * [Weak File Permissions - Readable /etc/shadow](linux/privilage-escalation/weak-file-permissions-readable-etc-shadow.md)
     * [Weak File Permissions - Writable /etc/shadow](linux/privilage-escalation/weak-file-permissions-writable-etc-shadow.md)
