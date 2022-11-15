@@ -26,6 +26,8 @@
     * [Kernel Exploits](linux/privilage-escalation/kernel-exploits.md)
   * [SUID binary](linux/suid-binary.md)
   * [Regex](linux/regex.md)
+  * [Local Enumeration](linux/local-enumeration/README.md)
+    * [File Extension](linux/local-enumeration/file-extension.md)
   * [VIM](linux/vim.md)
   * [Linux Forensics](linux/linux-forensics.md)
 * [malware-and-phishing](malware-and-phishing/README.md)
