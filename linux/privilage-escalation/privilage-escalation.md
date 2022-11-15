@@ -265,36 +265,3 @@ _Linux VM_
 
 1. In command prompt type: `/tmp/x`
 2. In command prompt type: `id`
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
