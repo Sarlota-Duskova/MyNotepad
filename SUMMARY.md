@@ -86,6 +86,7 @@
 * [attacking-the-user](attacking-the-user/README.md)
   * [Brute Force](attacking-the-user/brute-force/README.md)
     * [Burp Suite - Intruder](attacking-the-user/brute-force/burp-suite-intruder.md)
+    * [Password Attacks](attacking-the-user/brute-force/password-attacks.md)
     * [Hydra](attacking-the-user/brute-force/hydra.md)
     * [John the Ripper](attacking-the-user/brute-force/john-the-ripper.md)
     * [Tools](attacking-the-user/brute-force/tools.md)
