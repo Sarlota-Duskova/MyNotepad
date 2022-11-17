@@ -81,6 +81,7 @@
   * [SQLi (Structured Query Language Injection)](attacking-the-system/sqli/README.md)
     * [MySQL](attacking-the-system/sqli/mysql.md)
   * [HTTP](attacking-the-system/http.md)
+  * [XSS (Cross-Site Scripting)](attacking-the-system/xss-cross-site-scripting.md)
   * [PHP LFI Filter](attacking-the-system/php-lfi-filter.md)
 * [attacking-the-user](attacking-the-user/README.md)
   * [Brute Force](attacking-the-user/brute-force/README.md)
