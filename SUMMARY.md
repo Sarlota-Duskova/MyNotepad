@@ -79,6 +79,7 @@
   * [Privilege Escalation](windows/privilege-escalation.md)
 * [attacking-the-system](attacking-the-system/README.md)
   * [SQLi (Structured Query Language Injection)](attacking-the-system/sqli/README.md)
+    * [SQLite](attacking-the-system/sqli/sqlite.md)
     * [MySQL](attacking-the-system/sqli/mysql.md)
   * [HTTP](attacking-the-system/http.md)
   * [XSS (Cross-Site Scripting)](attacking-the-system/xss-cross-site-scripting.md)
