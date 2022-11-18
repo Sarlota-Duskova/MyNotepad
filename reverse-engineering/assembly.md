@@ -1,5 +1,9 @@
 # Assembly
 
+{% embed url="https://www.tutorialspoint.com/assembly_programming/index.htm" %}
+
+{% embed url="https://binary.ninja" %}
+
 Assembler output from C source:
 
 `gcc -S code.c`
