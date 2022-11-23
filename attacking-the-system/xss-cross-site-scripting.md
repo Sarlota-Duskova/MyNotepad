@@ -4,7 +4,7 @@
 
 A website allows user input that is not sanitised.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>An example Stored XSS</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>An example Stored XSS</p></figcaption></figure>
 
 `<script>alert(1)</script>`
 
@@ -20,7 +20,7 @@ The website includes this payload in response back to the user.
 
 An attacker needs to trick a victim into clicking a URL to execute their malicious payload.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>An example Reflected XSS</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>An example Reflected XSS</p></figcaption></figure>
 
 Some browsers have in-built XSS protection.
 

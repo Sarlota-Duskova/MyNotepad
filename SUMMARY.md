@@ -72,6 +72,7 @@
     * [Page 2](network/wireshark/page-2.md)
 * [reverse-engineering](reverse-engineering/README.md)
   * [ELF file](reverse-engineering/elf-file.md)
+  * [ARM Assembly](reverse-engineering/arm-assembly.md)
   * [Assembly](reverse-engineering/assembly.md)
 * [windows](windows/README.md)
   * [Active Directory](windows/active-directory.md)
