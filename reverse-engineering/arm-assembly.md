@@ -50,7 +50,30 @@ list:
 	.word 4,5,-9,1,0,2,-3 //.word mean it will be 32bits
 ```
 
-
+```armasm
+.global _start
+_start:
+	MOV R0, #5
+	MOV R1, #7
+	ADD R2, R0, R1 // R2=R0+R1
+	//ADC = C set the flag carry
+	SUBS R3, R0, R1 // SUBB R3=R0-R1
+	//S set the flag in CPSR register
+	MUL R4, R0, R1 // R3=R0*R1
+	// CPSR register => N=negative, Z=zero, C=carry, V=overflow, I=Interrupt disable bit,
+	EOR R5, R0, R1 // exclusive OR, if both of theme are same = 0, otherwise 1
+	MVN //move negative
+	LSL R0, #1 //shift bites to left (multiple) 1010 (10 dec) => 10100 (20 dec)
+	LSR //shift bites to right (divided) 1010 (10 dec) => 0101 (5 dec)
+	ROR //rotation 00000101 => 10000010
+	CMP R0, R1 // do R0-R1 => if it is 0 then it is same
+	BGT //greater than
+	BGB //greater than or equal 
+	BLT //less than
+	BLE //less than or equal
+	BEQ //equal
+	BNE //does not equal
+```
 
 
 
