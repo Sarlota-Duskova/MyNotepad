@@ -29,9 +29,26 @@ Starting point of applicaition:
 _start:
 ```
 
+```armasm
+.global _start
+_start:
+// FIRST PROGRAM
+	MOV R0,#30 // move 30 decimal to register R0
+	MOV R7,#1 // #1 will exit that program 
+	SWI 0 // SWI software interrupts, lets the OS take over
+```
 
-
-
+```armasm
+.global _start
+_start:
+// SECOND PROGRAM
+	LDR R0,=list //LDR = load data from stuck into register
+	LDR R1,[R0] //[] = will tell what value is associate in R0 register
+	LDR R2,[R0,#4]! //! = increment comes afterward
+.data 
+list:
+	.word 4,5,-9,1,0,2,-3 //.word mean it will be 32bits
+```
 
 
 
