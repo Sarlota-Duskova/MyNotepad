@@ -32,6 +32,26 @@ systemctl \[option] \[service] We can do four options with systemctl:
 * Enable
 * Disable
 
+How to stop process:
+
+`ctrl+c`
+
+`ctrl+z` - sleep
+
+`jobs` - find what jobs are sleeping
+
+`bg 1` - background process
+
+`fg 1` - back to foreground&#x20;
+
+Found what processes is running with `jobs` and `ps` and then:
+
+`kill -2 21345`
+
+`pkill -9 ping kill` all ping processes
+
+
+
 
 
 Save IP address:
