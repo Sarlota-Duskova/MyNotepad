@@ -11,3 +11,24 @@ Another method is open up the image in hex editor and start looking around for s
 Another important part of this line is the `PK` near the end. `PK` are the initials of Phil Katz, the inventor of the zip file, and indicate that a zip file starts at that point.
 
 Using this information we can use another handy linux tool, [`dd`](http://en.wikipedia.org/wiki/Dd\_\(Unix)). The `dd` command is very versatile and allows for the copying and converting of a multitude of files. In our case, we are going to be using it to extract the zip file.
+
+
+
+#### IEND[¶](https://ctf-wiki.mahaloz.re/misc/picture/png/#iend) <a href="#iend" id="iend"></a>
+
+IEND (Image Trailer Chunk): It is used to mark the end of a PNG data stream or file, and it must be placed at the end of the file.
+
+**Example**[**¶**](https://ctf-wiki.mahaloz.re/misc/picture/png/#example)
+
+* IEND's chunk length is always `00 00 00 00`
+* IEND's chunk type is always IEND `49 45 4E 44`
+* IEND'S CRC value is always `AE 42 60 82`
+
+That means a PNG file will always end with these bytes:
+
+`00 00 00 00 49 45 4E 44 AE 42 60 82`
+
+`pngcheck` check info about png
+
+
+
