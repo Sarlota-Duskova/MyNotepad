@@ -21,6 +21,30 @@ Spawn a process, and connect its controlling terminal with the current process�
 |       ps aux      | snapshot of the current processes |       running processes      |
 | Find . -name ‘\*’ |               find                |       shows all folders      |
 
+**ctrl + shift + c** - copy text
+
+**ctrl + shift + v** - past text
+
+**ctrl + a** - jumps to the beginning of line
+
+**ctrl + e** - jumps to the end of line
+
+**ctrl + shift + "+"** - zoom in
+
+**ctrl + "-"** - zoom out
+
+**ctrl + u** - deletes everything before cursor
+
+**ctrl + k** - deletes everything after cursor
+
+**ctrl + y** - put it back
+
+**alt + backspace** - delete lasr word
+
+**ctrl + x + e** - put line into editor
+
+**ctrl + r** - find command in history
+
 
 
 systemctl => this command allows us to interact with the systemd process/daemon.
