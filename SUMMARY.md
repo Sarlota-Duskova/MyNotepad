@@ -94,6 +94,8 @@
     * [Hydra](attacking-the-user/brute-force/hydra.md)
     * [John the Ripper](attacking-the-user/brute-force/john-the-ripper.md)
     * [Tools](attacking-the-user/brute-force/tools.md)
+* [CTF](ctf/README.md)
+  * [Hiding a file in an image](ctf/hiding-a-file-in-an-image.md)
 
 ## Web Enumeration
 
