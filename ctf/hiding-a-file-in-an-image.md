@@ -39,3 +39,11 @@ That means a PNG file will always end with these bytes:
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
+#### Steghide
+
+useful tools to find hidden things in images
+
+
+
+
+
