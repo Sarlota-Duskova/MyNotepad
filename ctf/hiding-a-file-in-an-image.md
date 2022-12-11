@@ -1,6 +1,6 @@
 # Hiding a file in an image
 
-In command line: biwalk&#x20;
+In command line: binwalk&#x20;
 
 Or change .jpg to .zip
 
