@@ -4,6 +4,13 @@ In command line: binwalk&#x20;
 
 Or change .jpg to .zip
 
+hex editor:
+
+* `xxd`
+* `hexyl`
+* `hexedit`
+* `ghex`
+
 Another method is open up the image in hex editor and start looking around for something odd (You may find the flag itself from the dump at this point, but for the sake of example try extracting it). Near the bottom of the file you should see the terminating byte of a jpg `ffd9`:
 
 `01e17a0: 685c 7fab 8eb4 5b32 61f1 c4ff d950 4b03 h\....[2a....PK.`
@@ -30,5 +37,5 @@ That means a PNG file will always end with these bytes:
 
 `pngcheck` check info about png
 
-
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 

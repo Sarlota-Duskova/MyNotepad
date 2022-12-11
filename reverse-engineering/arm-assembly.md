@@ -4,7 +4,7 @@
 
 ### Registers
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (11).png>)
 
 Each zero represents a single hexadecimal value, that value represent four bits of data so we have in total 32 bits that we can work with.
 
