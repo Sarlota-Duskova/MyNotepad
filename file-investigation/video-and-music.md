@@ -2,6 +2,22 @@
 
 qsstv for transfere wav to picture
 
+`apt-get install qsstv`
+
+`pactl load-module module-null-sink sink_name=virtual-cable`
+
+`pavucontrol` # A GUI will pop-up, go to the "Output Devices" tab to verify that you have the "Null Output" device
+
+`qsstv` # The program GUI will pop-up, go to "Options" -> "Configuration" -> "Sound" and select the "PulseAudio" Audio Interface
+
+\# Back in the pavucontrol GUI, select the "Recording" tab and specify that QSSTV should capture audio from the Null Output
+
+`paplay -d virtual-cable message.wav`
+
+
+
+`steghide extract -sf message.wav -p hidden_stegosaurus`
+
 
 
 Like image file formats, audio and video file trickery is a common theme in CTF forensics challenges not because hacking or data hiding ever happens this way in the real world, but just because audio and video is fun. As with image file formats, stegonagraphy might be used to embed a secret message in the content data, and again you should know to check the file metadata areas for clues. Your first step should be to take a look with the [mediainfo](https://mediaarea.net/en/MediaInfo) tool (or `exiftool`) and identify the content type and look at its metadata.
