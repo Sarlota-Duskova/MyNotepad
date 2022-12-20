@@ -6,9 +6,3 @@
 
 `srch_strings` - display printable strings in files
 
-**SleuthKit**
-
-{% embed url="http://wiki.sleuthkit.org/index.php?title=TSK_Tool_Overview" %}
-
-BMP file - open in `eog`&#x20;
-
