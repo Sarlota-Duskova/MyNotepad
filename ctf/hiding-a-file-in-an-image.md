@@ -43,7 +43,9 @@ That means a PNG file will always end with these bytes:
 
 useful tools to find hidden things in images
 
+**Decode Images**
 
+{% embed url="https://stylesuxx.github.io/steganography/" %}
 
 
 
