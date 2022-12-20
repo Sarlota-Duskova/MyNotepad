@@ -96,6 +96,8 @@
     * [Tools](attacking-the-user/brute-force/tools.md)
 * [CTF](ctf/README.md)
   * [Hiding a file in an image](ctf/hiding-a-file-in-an-image.md)
+* [File Investigation](file-investigation/README.md)
+  * [Details associated with a file system](file-investigation/details-associated-with-a-file-system.md)
 
 ## Web Enumeration
 
