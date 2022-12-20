@@ -99,6 +99,7 @@
 * [File Investigation](file-investigation/README.md)
   * [Details associated with a file system](file-investigation/details-associated-with-a-file-system.md)
   * [EXE file Analysis](file-investigation/exe-file-analysis.md)
+  * [Video and music](file-investigation/video-and-music.md)
 
 ## Web Enumeration
 
