@@ -1,5 +1,9 @@
 # Burp Suite - Intruder
 
+List of Unicode Characters
+
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!"#$%&'()\*+,‐./:;<=>?@\[]^\_\`{|}\~
+
 **Attack type:**
 
 * Sniper
