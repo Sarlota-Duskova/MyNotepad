@@ -14,6 +14,22 @@ We have every time reserved two addresses:\
 \- Default Gateway: 192.168.1.1 - it will be a router\
 \- Broadcast address: 192.168.1.255
 
+**Public IP address:**
+
+Show public address:
+
+`nslookup myip.opendns.com resolver1.opendns.com`
+
+**Private IP address:**
+
+The range of private IPs:
+
+&#x20;10.0.0.0 to 10.255.255.255
+
+&#x20;172.16.0.0 to 172.31.255.255
+
+&#x20;192.168.0.0 to 192.168.255.255
+
 
 
 They are mathematically produced and allocated by the Internet Assigned Numbers Authority (IANA), a division of the Internet Corporation for Assigned Names and Numbers (ICANN).
