@@ -1,5 +1,7 @@
 # Hiding a file in an image
 
+[https://en.wikipedia.org/wiki/List\_of\_file\_signatures](https://en.wikipedia.org/wiki/List\_of\_file\_signatures)
+
 In command line: binwalk&#x20;
 
 Or change .jpg to .zip
