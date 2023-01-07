@@ -122,6 +122,7 @@
 
 ## Writeups
 
+* [Reports](writeups/reports.md)
 * [Overpass](writeups/overpass.md)
 
 ## Red Team
