@@ -21,6 +21,18 @@ SGID (Set Group ID)
 
 GUID: rwx-rws-rwx
 
+Special Permissions (first bit in permissions) has the following options:
+
+1. \_ - no special permissions set
+2. d – directory
+3. l – file has symbolic links
+4. s – setuid or setgid is set
+5. t – sticky bit set
+
+
+
+
+
 `find / -perm -u=s -type f 2>/dev/null`
 
 * `find` - Initiates the "find" command
