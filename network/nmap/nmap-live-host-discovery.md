@@ -59,3 +59,7 @@
 |   -n   |           no DNS lookup          |
 |   -R   | reverse-DNS lookup for all hosts |
 |   -sn  |        host discovery only       |
+
+
+
+The Nmap option `-sn` disables port scanning, leaving the discovery phase enabled, which makes Nmap perform a **ping sweep**. Depending on the privileges, Nmap by default uses different techniques to achieve this task: sending a `TCP SYN` packet to port `443`, `TCP ACK` packet to port `80` and ICMP echo and timestamp requests if executed as a privileged user, or a `SYN` packets to port `80` and `443` via the `connect() syscall` if executed by users who can't send raw packets. **ARP/Neighbor Discovery** is also enabled when scanning local Ethernet networks as privileged users. MAC addresses and vendors are identified from the ARP requests sent during the ARP/Neighbor Discovery phase.
