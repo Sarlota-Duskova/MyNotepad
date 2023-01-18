@@ -58,7 +58,13 @@ Special Permissions (first bit in permissions) has the following options:
 4. s – setuid or setgid is set
 5. t – sticky bit set
 
+**Symbolic links**
 
+In the example below do not create "three" directory before creation of link in /tmp directory.
+
+```
+lrwxrwxrwx 1 user group 12 Jul 22 10:02 /tmp/three -> /tmp/one/two
+```
 
 
 
