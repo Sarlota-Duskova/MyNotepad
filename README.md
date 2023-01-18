@@ -23,7 +23,7 @@ https://sarlots-organization.gitbook.io/my-notepad-about-stuff-related-to-it/
   * [POP3](network/mail-services/pop3.md)
   * [IMAP (Internet Message Access Protocol)](network/mail-services/imap-internet-message-access-protocol.md)
 * [NFS (Network File System)](network/nfs-network-file-system.md)
-* [HTTP (Hypertext Transfer Protocol)](network/http-hypertext-transfer-protocol.md)
+* [HTTP (Hypertext Transfer Protocol)](network/http-hypertext-transfer-protocol/)
 * [FTP (File Transfer Protocol)](network/ftp-file-transfer-protocol.md)
 * [TLS (Transport Layer Security)](network/tls-transport-layer-security/)
   * [Layers](network/tls-transport-layer-security/layers.md)
