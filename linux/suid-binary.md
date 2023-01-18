@@ -11,15 +11,44 @@ r - read
 w - write
 
 x - execute
+
+u - user
+
+g - group
+
+o - others
+
+a - all
 {% endhint %}
 
 Example: `chmod` as `755`, then it will be: `rwxr-xr-x`.
 
-SUID (Set user ID): rws-rwx-rwx&#x20;
+Example: `chmod` as `4744`, then it will be: `-rwsr--r--`.
+
+SETUID = 4\
+SETGID = 2\
+STICKY = 1\
+NONE = 0\
+READ = 4\
+WRITE = 2\
+EXECUTE = 1
+
+SUID (Set user ID): `rws rwx rwx`
+
+* the special permission for the user access level has a single function
+* if the owning group does not have execute permissions, then an uppercase **S** is used.
 
 SGID (Set Group ID)
 
-GUID: rwx-rws-rwx
+* it runs as if it were a member of the same group in which the file is a member.
+
+GUID: `rwx rws rwx`
+
+* if it’s an executable, then it runs with the permissions of the group. If it’s a directory, it results in all new files and directories created to belong to the group.
+
+Other + t (sticky): `rwx rwx rwt`
+
+* Only the **owner** (and **root**) of a file can remove the file within that directory
 
 Special Permissions (first bit in permissions) has the following options:
 
