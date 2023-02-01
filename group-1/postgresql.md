@@ -111,6 +111,10 @@ ALTER TABLE table_name DROP CONSTRAINT constraint_name;
 ALTER TABLE table_name ADD COLUMN column_name DATATYPE REFERENCES referenced_table_name(referenced_column_name);
 ```
 
+```sql
+ALTER TABLE table_name ADD FOREIGN KEY(column_name) REFERENCES table_name(column_name);
+```
+
 These tables have a "one-to-one" relationship. **One** row in the `characters` table will be related to exactly **one** row in `more_info` and vice versa. Enforce that by adding the `UNIQUE` constraint to your foreign key. Here's an example:
 
 ```sql
