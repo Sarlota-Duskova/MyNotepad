@@ -139,15 +139,63 @@ You can create a primary key from two columns, known as a **composite** primary 
 ALTER TABLE table_name ADD PRIMARY KEY(column1, column2);
 ```
 
-\
-\
+`LIKE` - find a pattern in text&#x20;
 
+`ILIKE` - will ignore the case of the letters
 
+`NOT LIKE` - to find things that don't match a pattern
 
+`IS NULL` - view all data that is null
 
+`IS NOT NULL` -view all data that is not null
 
+An underscore (`_`) in a pattern will return rows that have any character in that spot.
 
+`%` - anything can be there.
 
+```sql
+SELECT columns FROM table_name WHERE column ILIKE '%A%';
+```
+
+`ORDER BY <column_name>` at the end of a query
+
+it will be in ascending (`ASC`) order by default. Add `DESC` (descending) at the end of the last query to put the highest ones at the top.
+
+`LIMIT <number>` at the end of the query to only get the amount you want.
+
+`SELECT MIN(<column>) FROM <table>`. It will find the lowest value in the column.&#x20;
+
+`MAX`
+
+`SUM`
+
+`AVG` will give you the average of all the values in a column.&#x20;
+
+Round decimals up or down to the nearest whole number with `CEIL` and `FLOOR`
+
+Round a number to the nearest whole number with `ROUND`
+
+`ROUND(<number_to_round>, <decimals_places>)`
+
+`COUNT(<column>)` - It will tell how many entries are in a table for the column.
+
+`DISTINCT` is a function that will show you only unique values.
+
+```sql
+SELECT DISTINCT(column) FROM table;
+```
+
+```sql
+SELECT <column> FROM <table> GROUP BY <column>
+```
+
+Another option with `GROUP BY` is `HAVING`.
+
+Rename a column with `AS`
+
+```sql
+SELECT <column> AS <new_column_name>
+```
 
 
 
