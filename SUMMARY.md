@@ -5,6 +5,7 @@
 * [linux](linux/README.md)
   * [First check](linux/first-check.md)
   * [Bash](linux/bash.md)
+  * [Nano](linux/nano.md)
   * [Cronjob](linux/cronjob.md)
   * [/etc/passwd](linux/etc-passwd.md)
   * [Privilage Escalation](linux/privilage-escalation/README.md)
