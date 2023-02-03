@@ -197,5 +197,43 @@ Rename a column with `AS`
 SELECT <column> AS <new_column_name>
 ```
 
+`JOIN` the two tables into one.&#x20;
+
+The `FULL JOIN` you used will include **all** rows from both tables, whether or not they have a row using that foreign key in the other.
+
+```sql
+SELECT * FROM <table_1> FULL JOIN <table_2> ON <table_1>.<foreign_key_column> = <table_2>.<foreign_key_column>;
+```
+
+`LEFT JOIN` to join the same two tables in the same way.
+
+`RIGHT JOIN`
+
+Join the two tables with an `INNER JOIN` - it only returned rows if they have a value in the foreign key column of the opposite table.&#x20;
+
+`<table>.<column>` - specify what table you want the column from
+
+Rename tables, or give them aliases, as well. Here's an example: `SELECT * FROM <table> AS <new_name>;`
+
+`USING` to join tables if the foreign key column has the same name in both tables.
+
+```sql
+SELECT * FROM <table_1> FULL JOIN <table_2> USING(<column>);
+```
+
+Join multiple tables
+
+```sql
+SELECT * FROM <table_1> FULL JOIN <table_2> USING(<column>) FULL JOIN <table_3> USING(<column>)
+```
+
+
+
+
+
+
+
+
+
 
 
