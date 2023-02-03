@@ -68,6 +68,8 @@ How to stop process:
 
 `fg 1` - back to foreground&#x20;
 
+`wc` - word count
+
 Found what processes is running with `jobs` and `ps` and then:
 
 `kill -2 21345`
@@ -106,7 +108,21 @@ then:
 
 `http -v GET https://949e28ad57a200b65ef6eeb47841e4d8.ctf.hacker101.com/s3cr3t-4dm1n/ X-Forwarded-For:8.8.8.8`
 
+using redirection: `<command> < <file_name>`
 
+There’s two types of output, `stdout` (standard out) for when a command is successful, and `stderr` (standard error) for when it’s not.
+
+You can redirect `stderr` with `2>`
+
+use `1>` to redirect `stdout`
+
+`stdin` (standard in) is the third thing commands can use and is for getting input.&#x20;
+
+&#x20;you can redirect `stdin` as well. Here's an example: `<command> < <filename_for_stdin>`
+
+&#x20;Another way to set the `stdin` is by using the pipe (`|`). It will use the output from one command as input for another. Here's an example: `<command_1> | <command_2>`. This will take the `stdout` from `command_1` and use it as the `stdin` for `command_2`.&#x20;
+
+``
 
 ## Raspberry Pi
 
