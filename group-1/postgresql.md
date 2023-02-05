@@ -239,9 +239,11 @@ Dump of database:
 You can make a dump of it by entering pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
 ```
 
+Rebuild database
 
-
-
+```sql
+psql -U postgres < worldcup.sql
+```
 
 
 
