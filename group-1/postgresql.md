@@ -233,7 +233,11 @@ Join multiple tables
 SELECT * FROM <table_1> FULL JOIN <table_2> USING(<column>) FULL JOIN <table_3> USING(<column>)
 ```
 
+Dump of database:
 
+```sql
+You can make a dump of it by entering pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
+```
 
 
 
