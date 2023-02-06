@@ -130,17 +130,5 @@ use `1>` to redirect `stdout`
 
 `./LCD35B-show-v2`
 
-## GIT
 
-`git init`
-
-`git add .`
-
-`git commit -m "first commit"`
-
-`git remote add origin https://github.com/Sarlota-Duskova/freecodecamp.git`
-
-`git pull --rebase origin main`
-
-`git push -f origin main`
 

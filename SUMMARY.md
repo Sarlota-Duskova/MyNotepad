@@ -5,6 +5,7 @@
 * [linux](linux/README.md)
   * [First check](linux/first-check.md)
   * [Bash](linux/bash.md)
+  * [GIT](linux/git.md)
   * [Nano](linux/nano.md)
   * [Cronjob](linux/cronjob.md)
   * [/etc/passwd](linux/etc-passwd.md)
