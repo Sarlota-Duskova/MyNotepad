@@ -76,7 +76,7 @@ Found what processes is running with `jobs` and `ps` and then:
 
 `pkill -9 ping kill` all ping processes
 
-
+`[[ 12 =~ [0-9]+$ ]] && echo yes` - test bash script in command line
 
 
 
@@ -130,17 +130,5 @@ use `1>` to redirect `stdout`
 
 `./LCD35B-show-v2`
 
-## GIT
 
-`git init`
-
-`git add .`
-
-`git commit -m "first commit"`
-
-`git remote add origin https://github.com/Sarlota-Duskova/freecodecamp.git`
-
-`git pull --rebase origin main`
-
-`git push -f origin main`
 
