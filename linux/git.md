@@ -28,5 +28,17 @@
 
 `git commit -m "Initial commit"` - The `-m` stands for "message"
 
-git log - Check commit history
+`git log` - Check commit history
+
+`git diff` - see the changes you made with&#x20;
+
+`git branch -d branch_name` - `-d` stands for "delete"
+
+
+
+
+
+
+
+
 
