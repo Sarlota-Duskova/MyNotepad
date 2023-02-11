@@ -92,6 +92,7 @@
   * [HTTP](attacking-the-system/http.md)
   * [XSS (Cross-Site Scripting)](attacking-the-system/xss-cross-site-scripting.md)
   * [PHP LFI Filter](attacking-the-system/php-lfi-filter.md)
+  * [File upload](attacking-the-system/file-upload.md)
 * [attacking-the-user](attacking-the-user/README.md)
   * [Brute Force](attacking-the-user/brute-force/README.md)
     * [Burp Suite - Intruder](attacking-the-user/brute-force/burp-suite-intruder.md)
