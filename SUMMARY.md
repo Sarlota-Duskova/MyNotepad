@@ -80,6 +80,7 @@
   * [ELF file](reverse-engineering/elf-file.md)
   * [ARM Assembly](reverse-engineering/arm-assembly.md)
   * [Assembly](reverse-engineering/assembly.md)
+  * [Android](reverse-engineering/android.md)
 * [windows](windows/README.md)
   * [Active Directory](windows/active-directory.md)
   * [Basics of Windows](windows/basics-of-windows.md)
