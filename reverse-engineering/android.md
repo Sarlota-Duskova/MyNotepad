@@ -12,8 +12,10 @@
 
 {% embed url="http://pallergabor.uw.hu/androidblog/dalvik_opcodes.html" %}
 
+Create key to validation of application:
+
 `keytool -genkey -v -keystore my-release-key.keystore -alias modified_apk -keyalg RSA -keysize 2048 -validity 10000`
 
-
+Validate an application with created key:
 
 `jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore modified.apk modified_apk`
