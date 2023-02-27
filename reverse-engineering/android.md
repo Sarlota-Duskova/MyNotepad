@@ -6,6 +6,12 @@
 
 `jadx-gui android.apk` - show apk files
 
+Extract backup file:
+
+```bash
+( printf "\x1f\x8b\x08\x00\x00\x00\x00\x00" ; tail -c +25 backup.ab ) |  tar xfvz -
+```
+
 
 
 ## Dalvik opcodes
