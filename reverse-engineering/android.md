@@ -41,9 +41,26 @@ signed.apk - is output apk file
 
 
 
+## Tools
 
+* ADB
+* ApkTool
+* uber-apk-signer
+* ApkStudio
+* Idea
+* IdeaSmali
 
+### Profiling tools (root required)
 
+* Frida
+* Introspy
+* Xposed
+
+### Automated tools
+
+* Mobile Security Framework (MobSF)
+* Quick Android Review Kit (QARK)
+* Drozer
 
 
 
