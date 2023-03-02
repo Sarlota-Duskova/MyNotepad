@@ -62,6 +62,26 @@ signed.apk - is output apk file
 * Quick Android Review Kit (QARK)
 * Drozer
 
+### Finding and exploiting URL handlers
+
+**Command:**
+
+`find . -name AppDelegate.swift`
+
+**Output:**
+
+For Swift:
+
+./DVIA-v2/AppDelegate.swift
+
+or for Objective C
+
+./DVIA-v2/AppDelegate.m
+
+
+
+
+
 
 
 
