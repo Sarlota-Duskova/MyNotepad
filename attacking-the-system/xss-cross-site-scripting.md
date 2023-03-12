@@ -20,7 +20,7 @@ The website includes this payload in response back to the user.
 
 An attacker needs to trick a victim into clicking a URL to execute their malicious payload.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>An example Reflected XSS</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (4).png" alt=""><figcaption><p>An example Reflected XSS</p></figcaption></figure>
 
 Some browsers have in-built XSS protection.
 
@@ -92,5 +92,6 @@ The following script will scan an internal network in the range 192.168.0.0 to 1
 <strong>        l += e.key; // If user types, log it to the l variable
 </strong>        console.log(l); // update this line to post to your own server
     }
-&#x3C;/script> </code></pre>
+&#x3C;/script> 
+</code></pre>
 

@@ -90,6 +90,33 @@ then in command line I can start attack:
 
 
 
+## APK file structure
+
+![](../.gitbook/assets/image.png)
+
+**Manifest file:** An additional Android manifest file, describing the name, version, access rights, referenced library files for the application. This file may be in Android binary XML that can be converted into human-readable plaintext XML with tools such as AXMLPrinter2, apktool, or Androguard.
+
+**Signatures (META-INF):** It contains the Certificates and the signatures.
+
+**Assets:** A directory containing applications assets, which can be retrieved by AssetManager.
+
+**Compiled resources(resources.arsc):** A file containing precompiled resources, such as binary XML for example.
+
+**Native Libraries(lib):** The directory containing the compiled code that is platform dependent; the directory is split into more directories within it:
+
+* `armeabi-v7a`: compiled code for all ARMv7 and above based processors only
+* `arm64-v8a`: compiled code for all ARMv8 arm64 and above based processors only
+* `x86`: compiled code for x86 processors only
+* `x86_64`: compiled code for x86 64 processors only
+
+**Dalvik bytecode(class.dex):** The classes compiled in the dex file format understandable by the Dalvik virtual machine and by the Android Runtime.
+
+**Resources(res):** the directory containing resources not compiled into resources.arsc
+
+
+
+
+
 
 
 
