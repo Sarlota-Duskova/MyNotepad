@@ -88,7 +88,13 @@ then in command line I can start attack:
 
 `adb shell am start -d "oauth://final/?uri=https://sarlota-duskova.github.io/CTF/oauthbreaker/"`
 
+Run command line:
 
+`adb shell`
+
+`run-as com.insecureshop`
+
+`ls -al`
 
 ## APK file structure
 
@@ -115,9 +121,22 @@ then in command line I can start attack:
 
 
 
+## What to look for
 
+#### Exploring the Android Manifest
 
+* **debuggable** - the app being in debug mode, meaning it’s possible to attach a debugger to the application’s process and execute arbitrary code.
+* **allowBackup** - defines whether application data can be backed up and restored by a user who has enabled USB debugging. This means that hackers connecting to a device via adb can easily obtain any application data that is stored on the device, including personal data on private storage.
 
+#### Searching for Hardcoded values
+
+* Looking for hardcoded **secret** keys
+
+#### Analyzing WebViews in an App
+
+* setWebContentsDebuggingEnabled(true) - allows inspections of WebView content from a remote browser, so it must always be set to false.
+* clearCache(true) - clears the WebView caches from the client device. This can mitigate issues relating to sensitive data stored on the local file system.
+* EnableSafeBrowsing - displays warnings when a compromised or known phishing website is loaded in the WebView.
 
 
 
