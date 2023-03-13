@@ -138,7 +138,9 @@ Run command line:
 * clearCache(true) - clears the WebView caches from the client device. This can mitigate issues relating to sensitive data stored on the local file system.
 * EnableSafeBrowsing - displays warnings when a compromised or known phishing website is loaded in the WebView.
 
+#### API key
 
+[https://github.com/streaak/keyhacks](https://github.com/streaak/keyhacks)
 
 
 
