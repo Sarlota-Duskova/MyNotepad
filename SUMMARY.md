@@ -2,6 +2,7 @@
 
 * [README](README.md)
 * [OWASP](owasp.md)
+* [Basics](basics.md)
 * [linux](linux/README.md)
   * [First check](linux/first-check.md)
   * [Bash](linux/bash.md)
