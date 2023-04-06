@@ -78,7 +78,7 @@ Found what processes is running with `jobs` and `ps` and then:
 
 `[[ 12 =~ [0-9]+$ ]] && echo yes` - test bash script in command line
 
-HISTSIZE - set size of history
+`HISTSIZE 500` - set size of history
 
 
 
