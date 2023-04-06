@@ -126,6 +126,28 @@ use `1>` to redirect `stdout`
 
 
 
+Settings stuff:
+
+Global:
+
+/etc/profile
+
+/etc/bashrc
+
+
+
+Users:
+
+\~/.bash\_profile
+
+\~/.bashrc
+
+\~/.bash\_logout
+
+\~/.bash\_history
+
+
+
 ## Raspberry Pi
 
 `cd LCD-show/`
