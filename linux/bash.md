@@ -78,6 +78,8 @@ Found what processes is running with `jobs` and `ps` and then:
 
 `[[ 12 =~ [0-9]+$ ]] && echo yes` - test bash script in command line
 
+HISTSIZE - set size of history
+
 
 
 Save IP address:
@@ -122,7 +124,7 @@ use `1>` to redirect `stdout`
 
 &#x20;Another way to set the `stdin` is by using the pipe (`|`). It will use the output from one command as input for another. Here's an example: `<command_1> | <command_2>`. This will take the `stdout` from `command_1` and use it as the `stdin` for `command_2`.&#x20;
 
-``
+
 
 ## Raspberry Pi
 
