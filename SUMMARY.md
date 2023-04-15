@@ -1,6 +1,18 @@
 # Table of contents
 
 * [README](README.md)
+* [Learning course](learning-course/README.md)
+  * [OWASP Top 10 2021](learning-course/owasp-top-10-2021/README.md)
+    * [1. Broken Access Control](learning-course/owasp-top-10-2021/1.-broken-access-control.md)
+    * [2. Cryptographic Failures](learning-course/owasp-top-10-2021/2.-cryptographic-failures.md)
+    * [3. Injection](learning-course/owasp-top-10-2021/3.-injection.md)
+    * [4. Insecure Design](learning-course/owasp-top-10-2021/4.-insecure-design.md)
+    * [5. Security Misconfiguration](learning-course/owasp-top-10-2021/5.-security-misconfiguration.md)
+    * [6. Vulnerable & Outdated components](learning-course/owasp-top-10-2021/6.-vulnerable-and-outdated-components.md)
+    * [7. Identification & Authentication Failures](learning-course/owasp-top-10-2021/7.-identification-and-authentication-failures.md)
+    * [8. Software & Data integrity failures](learning-course/owasp-top-10-2021/8.-software-and-data-integrity-failures.md)
+    * [9. Security logging & Monitoring failures](learning-course/owasp-top-10-2021/9.-security-logging-and-monitoring-failures.md)
+    * [10. SSRF](learning-course/owasp-top-10-2021/10.-ssrf.md)
 * [OWASP](owasp.md)
 * [Basics](basics.md)
 * [linux](linux/README.md)
