@@ -65,11 +65,48 @@
 
 ### OSI Layer 4 - Transport
 
+#### Data Delivery
 
+* User Datagram Protocol (UDP)
+* Transmission Control Protocol (TCP)
+
+#### Connectionless Transmission
+
+* Receiver does not acknowledge receipt of packet
+* Sending device assumes packet arrived successfully
+* Enables faster communication between devices
+
+#### Connection-oriented Transmission
+
+* Establish a connection between the two endpoints before any data is transmitted
+* Using TCP
 
 ### OSI Layer 5 - Session
 
+* Session protocol
+  * Defines parameters for connections
+* Manages the transfer of data
+  * Who can transfer
+  * How long
 
+#### Dialog Control
+
+* Determines which device communicates first and how data will be sent
+* Types of dialog control:
+  * Simplex - communication occurs in one direction only (one device transmits, while another device receives)
+  * Half duplex - traffic can occur in both directions, but only in one direction at a time (one device transmits whole the other receives, then the roles can be reversed so that communication can occur in the opposite direction)&#x20;
+  * Full duplex - traffic can be two-way at the same time
+
+#### Protocols
+
+* NetBIOS (Network Basic Input Output System)&#x20;
+* DNS (Domain Name Systems)
+
+Both are methods of communication involving name recognition and resolution
+
+* RPC (Remote Procedure Call) is a client-server redirection method whereby requests are generated on clients, but executed on servers
+* NFS (Network File System) which allows client systems to access server-based resources, such as folders and files
+* Sessions - is responsible for negotiating and maintaining the overall flow of communication during the session
 
 ### OSI Layer 6 - Presentation
 
