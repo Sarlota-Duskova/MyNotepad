@@ -110,15 +110,56 @@ Both are methods of communication involving name recognition and resolution
 
 ### OSI Layer 6 - Presentation
 
+#### Character code translation
 
+* ASCII
+* EBCDIC
+
+#### Data conversion
+
+* Bit order
+* CR-LF
+* Integer-floating point
 
 ### OSI Layer 7 - Application
 
+#### Network Services
 
+* FTP
+* DHCP
+* DNS
+* SMTP
+* HTTP
 
+### IP Headers
 
+* IPv4 header = 20 bytes
 
+TCP header size:
 
+* Minimum size of 20 bytes
+* Maximum size of 60 bytes
+* Defines the port value
+
+UDP header
+
+* Source port of 2 bytes
+* Destination port of 2 bytes
+* Length od 2 bytes
+* Checksum of 2 bytes
+* Data (payload) 0-65,507 bytes
+
+### TCP Flags
+
+SYN (Synchronization) - first step of establishing the connection
+
+ACK (Acknowledgement) - acknowledge receipt of that packet
+
+FIN (Finish) - last packet sent by sender&#x20;
+
+RST (Reset) - terminates the connection, when something just isn't correct
+
+PSH (Push) - when buffering needs to be managed or controlled, transport layer might wait for the higher level layers to provide it with more data so that the packet is as full as possible before it's sent
 
 
 
