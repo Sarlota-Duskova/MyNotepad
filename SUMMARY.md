@@ -15,7 +15,7 @@
     * [10. SSRF](learning-course/owasp-top-10-2021/10.-ssrf.md)
   * [Networking](learning-course/networking/README.md)
     * [OSI Model](learning-course/networking/osi-model.md)
-    * [Page 8](learning-course/networking/page-8.md)
+    * [Cables & Connectors](learning-course/networking/cables-and-connectors.md)
     * [Page 7](learning-course/networking/page-7.md)
     * [Page 6](learning-course/networking/page-6.md)
     * [Page 5](learning-course/networking/page-5.md)
