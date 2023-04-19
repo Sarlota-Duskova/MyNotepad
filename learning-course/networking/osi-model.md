@@ -161,19 +161,96 @@ RST (Reset) - terminates the connection, when something just isn't correct
 
 PSH (Push) - when buffering needs to be managed or controlled, transport layer might wait for the higher level layers to provide it with more data so that the packet is as full as possible before it's sent
 
+URG (Urgent)
 
+* Data is forwarded immediately
+* Notifies receiver to prioritize over other packets
+* Receiver is notified once all urgent packets are received
 
+### Fixed and variable payloads
 
+Payloads - data being transmitted
 
+#### Fixed Payload
 
+* Frames become fixed size (size is set)
 
+#### Variable Payload
 
+* A pattern is used to determine frame size
 
+### MTU vs. MSS
 
+#### Maximum Transmission Unit (MTU)
 
+* The largest frame or packet that can be transmitted over a particular type of network
+* MTU is specified at Layer 3
+* More data can be transmitted
+* Enables the use of jumbo frames (can typically be as large as 9000 bytes whereas the standard is usually around 1500)
+* Certain routers cannot handle larger packets
 
+**Adjusting MTU Size:**
 
+* For Windows - Netsh command
+* For Linux - ifconfig command
+* For Mac - change manually using system preferences
 
+#### Maximum Segment Size (MSS)
 
+* Largest amount of data a device can handle
+* Data segment and header total size should be less than MTU size
 
+### Test
 
+Which type of traffic management service occurs at the network layer of the OSI Model?
+
+* Routing
+
+Which protocols operate at the application layer of the OSI Model?
+
+* HTTP
+* SMTP
+
+Which device or service would not operate at the physical layer of the OSI Model?
+
+* IP Address
+
+If you needed to be certain that your data transmissions are being received, which type of connection and protocol should be used?
+
+* Connection-oriented and TCP
+
+Which command can be used to determine the MTU optimal size?
+
+* Ping
+
+The TCP header specifies which value to ensure that data is processed by the correct application?
+
+* Port
+
+Which TCP flag is used to gracefully terminate a session between two systems?
+
+* FIN
+
+Which type of communication would be analogous to a half duplex transmission?
+
+* Two people using walkie-talkies
+
+A fixed payload typically has which benefits or characteristics?
+
+* They are always the same size
+* They can be more efficient than variable payloads
+
+Which common services occur at the presentation layer of the OSI Model?
+
+* Compression
+* Encryption
+
+The physical address applied by the data link layer of the OSI Model has which features?
+
+* It is expressed using a 12-character hexadecimal value
+* It is a static address that can’t be changed
+* It is unique to every network interface
+
+Which statement correctly characterizes the functions of the OSI Model?
+
+* It is a method of describing the functions of a networking system to allow communication
