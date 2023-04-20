@@ -219,21 +219,7 @@ Binary
 
 ### Supernetting Strategies
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* Changing it by moving a line from right to left, so we are moving from 1 to 0 so from 11111111 to 111111110&#x20;
 
 ### Calculating Subnet Boundaries
 
