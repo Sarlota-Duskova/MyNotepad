@@ -16,7 +16,7 @@
   * [Networking](learning-course/networking/README.md)
     * [OSI Model](learning-course/networking/osi-model.md)
     * [Cables & Connectors](learning-course/networking/cables-and-connectors.md)
-    * [Page 7](learning-course/networking/page-7.md)
+    * [IP Addressing Schemes and Subnetting](learning-course/networking/ip-addressing-schemes-and-subnetting.md)
     * [Page 6](learning-course/networking/page-6.md)
     * [Page 5](learning-course/networking/page-5.md)
     * [Page 4](learning-course/networking/page-4.md)
