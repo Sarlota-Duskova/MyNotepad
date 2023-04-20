@@ -195,13 +195,13 @@ Binary
 
 128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 = 255
 
-#### Subnet Masks
+#### Subnet Masks - CIDR Notation
 
-| Bits used for mask | Default mask  | Subnet binary                       |
-| ------------------ | ------------- | ----------------------------------- |
-| /8                 | 255.0.0.0     | 11111111.00000000.00000000.00000000 |
-| /16                | 255.255.0.0   | 11111111.11111111.00000000.00000000 |
-| /24                | 255.255.255.0 | 11111111.11111111.11111111.00000000 |
+| Bits used for mask | Default mask  | Subnet binary                       | Class |
+| ------------------ | ------------- | ----------------------------------- | ----- |
+| /8                 | 255.0.0.0     | 11111111.00000000.00000000.00000000 | A     |
+| /16                | 255.255.0.0   | 11111111.11111111.00000000.00000000 | B     |
+| /24                | 255.255.255.0 | 11111111.11111111.11111111.00000000 | C     |
 
 ### Subnetting Fundamentals
 
@@ -216,102 +216,6 @@ Binary
 
 * anytime a system needs to send a broadcast packet
 * every host on that network will hear it
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Subnetting a Class C Network
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Subnetting a Class B Network
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Subnetting a Class A Network
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### Supernetting Strategies
 
