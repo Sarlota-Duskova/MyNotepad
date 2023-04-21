@@ -2,8 +2,6 @@
 
 ### Public vs. Private IP Addresses
 
-
-
 #### RFC1918 (1996) Request For Comment
 
 * Category 1 LAN only
@@ -315,19 +313,30 @@ If a network configuration is expressed by the value 192.168.0.1/24, which chara
 
 What are the benefits of using the IPv6 addressing scheme?
 
+* It provides capability for automatic configuration of IPs
+* It provides better routing since the size of routing tables are reduced
 
+By which manner can a subinterface be created?
 
+* By assigning more than one IP address to a single physical network adapter
 
+Which type of transmission would be used for a client system requesting email from its messaging server?
 
+* Unicast
 
+A subnet mask of 255.255.248.0 accommodates approximately how many hosts per subnet?
 
+* 2000
+* 255 - 1 - 2 - 4 = 248, 24 - 3 = 21, 32 - 21 = 11, 2^11 - 2 = 2046
 
+An IPv4 address that has been assigned through the APIPA process usually indicates what condition on a network?
 
+* A DHCP server could not be found
 
+What is meant by the fact that the IP protocol is characterized as dual stack?
 
+* It refers to the fact that either version 4 or version 6 can be used to communicate
 
+Which binary value represents the decimal value of 150?
 
-
-
-
-
+* 10010110
