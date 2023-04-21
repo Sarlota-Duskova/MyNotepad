@@ -195,7 +195,7 @@ Binary
 
 128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 = 255
 
-#### Subnet Masks - CIDR Notation
+#### Subnet Masks - CIDR (Classless Inter-Domain Routing) Notation
 
 | Bits used for mask | Default mask  | Subnet binary                       | Class |
 | ------------------ | ------------- | ----------------------------------- | ----- |
@@ -207,7 +207,7 @@ Binary
 
 2^8 = 256 every time - 2 because reserved 00000000 and 11111111
 
-192.168.0.0 is not used for regular host systems, it is used by the router to indicate that there is no host system, router should ignore the host portion and simply focun on the network portion
+192.168.0.0 is not used for regular host systems, it is used by the router to indicate that there is no host system, router should ignore the host portion and simply focus on the network portion
 
 * Routers do not connect host systems directly to each other
 * They connect network to each other
@@ -221,93 +221,99 @@ Binary
 
 * Changing it by moving a line from right to left, so we are moving from 1 to 0 so from 11111111 to 111111110&#x20;
 
-### Calculating Subnet Boundaries
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### IPv6 Addressing Solutions
 
+* Devices use both IPv4 and IPv6 addresses
 
+ae44:0000:dfe6:0000:3bf2:0000:ffe0:0001
 
+can be shortened to:
 
+ae44:0:dfe6:0:3bf2:0:ffe0:1
 
+or
 
+ae44::dfe6:0:3bf2:0:ffe0:1
 
+* Short 0000 to :: only one time within the address
 
+#### Stateless Address Autoconfiguration (SLAAC)
 
-
-
-
-
-
-
-
-
-
+* Stateful and stateless - let the client systems assemble their own addresses or have it managed by DHCP (Dynamic Host Configuration Protocol)
+* Autoconfiguration - part of the client, it can determine its own address
+* Host can generate its own address
+* Local and remote information used
+* Prefixes advertised by router
+* Address generated from prefix and interface identifier
+* Host creates interface identifier
+* If no router, link-local address generated
 
 ### Layer 3 Subinterfaces
 
+* Virtual interface
+* Convert physical info logical
 
+#### How Subinterfaces work
 
+* Connect router to multiple networks
+* Route traffic between networks
+* Multiple subinterfaces
+* Each subinterface has unique IP
 
+#### Using subinterfaces
 
-
-
-
-
-
-
-
-
-
-
-
+* VLAN traffic routing
+* Configured as if a physical interface
 
 ### Virtual IP Addressing
 
+* Single node represents multiple devices
+* Virtual IP represents all systems
+* Requests are redirected to a real address
 
+#### Using Virtual IP
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* DNS points to pool of virtual addresses
+* Content gateway distributes addresses based on location
+* Failures detected and rectified
 
 ### Test
+
+Which address is used as the loopback address in all IPv4 configurations?
+
+* 127.0.0.1
+
+What is the correct range of possible addresses that can be created for the first subnet based on the expression of 192.168.0.1/26?
+
+* 192.168.0.0 – 192.168.0.63
+
+Which statement best characterizes the function of network address translation?
+
+* It maps a private IP address to a public IP address, when you need to communicate with another system on the Internet
+
+Which subnet mask in a class A network will reduce any single subnet to the size of a class C network?
+
+* 255.255.255.0
+
+Which subnet mask will subdivide a class C network into 8 subnets?
+
+* 255.255.255.224
+* 128+64+32 = 224
+
+Which subnet mask is required to create a single network from four class C networks?
+
+* 255.255.252.0
+
+Which statement best characterizes the purpose and functionality of a virtual IP address?
+
+* It presents a single IP address to client systems, but it represents multiple IP addresses
+
+If a network configuration is expressed by the value 192.168.0.1/24, which characteristics can be ascertained about the state of this network?
+
+* The network has not been subnetted
+* The network is a class C network
+
+What are the benefits of using the IPv6 addressing scheme?
 
 
 
