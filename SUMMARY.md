@@ -19,7 +19,7 @@
     * [IP Addressing Schemes and Subnetting](learning-course/networking/ip-addressing-schemes-and-subnetting.md)
     * [Well-known Ports & Protocols](learning-course/networking/well-known-ports-and-protocols.md)
     * [Registered Ports](learning-course/networking/registered-ports.md)
-    * [Page 4](learning-course/networking/page-4.md)
+    * [Network Types](learning-course/networking/network-types.md)
     * [Page 3](learning-course/networking/page-3.md)
 * [OWASP](owasp.md)
 * [Basics](basics.md)
