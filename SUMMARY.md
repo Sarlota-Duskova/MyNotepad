@@ -18,7 +18,7 @@
     * [Cables & Connectors](learning-course/networking/cables-and-connectors.md)
     * [IP Addressing Schemes and Subnetting](learning-course/networking/ip-addressing-schemes-and-subnetting.md)
     * [Well-known Ports & Protocols](learning-course/networking/well-known-ports-and-protocols.md)
-    * [Page 5](learning-course/networking/page-5.md)
+    * [Registered Ports](learning-course/networking/registered-ports.md)
     * [Page 4](learning-course/networking/page-4.md)
     * [Page 3](learning-course/networking/page-3.md)
 * [OWASP](owasp.md)
