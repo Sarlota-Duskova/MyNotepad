@@ -21,7 +21,7 @@
     * [Well-known Ports & Protocols](learning-course/networking/well-known-ports-and-protocols.md)
     * [Registered Ports](learning-course/networking/registered-ports.md)
     * [Network Services & Data Center Architectures](learning-course/networking/network-services-and-data-center-architectures.md)
-    * [Page 6](learning-course/networking/page-6.md)
+    * [Cloud Concepts](learning-course/networking/cloud-concepts.md)
     * [Page 11](learning-course/networking/page-11.md)
     * [Page 10](learning-course/networking/page-10.md)
     * [Page 9](learning-course/networking/page-9.md)
