@@ -394,18 +394,101 @@ CAN - Campus Area Network
 * Data provided by ISPs operating earth-orbiting stations
 * Nos as fast as DSL, cable or fiber
 
+#### Satellite Pros
+
+* Available to businesses without access to landline Internet
+* Suitable speed for audio/video streaming
+* Global access
+
+#### Satellite Cons
+
+* High latency
+* Can be impacted by clouds, weather or even tall trees
+* Slow upload and download speeds
+* Monthly plans are costly
+
+#### Metro-optical
+
+* Metropolitan optical networks
+  * Can span distances up to several hundred kilometers
+  * Designed to serve large and densely concentrated metropolitan areas
+  * Connections are made using Ethernet
+  * Network support:
+    * Pure Ethernet
+    * Ethernet over MPLS
+    * Ethernet over DWDM
+    * Ethernet over SDH
+
+#### Internet Comparison
+
+| Internet type | Cost     | Speed     | Reliability | Availability |
+| ------------- | -------- | --------- | ----------- | ------------ |
+| DSL           | Low      | Moderate  | Moderate    | High         |
+| Fiber         | Moderate | Very high | High        | Moderate     |
+| Cable         | Low      | High      | High        | High         |
+| Satellite     | High     | Low       | Low         | Very high    |
+
 ### Service-related Entry Points
 
-###
+#### Demarcation point
 
-###
+* Location where connection is made to outside world (WAN provider, ISP)
+* Centrally located in a building
+* Division between the ISP and your network
+* Your equipment is the customer premises equipment (CPE) and the connection is your responsibility from the demarcation point inward
+
+#### Smartjack
+
+* Intelligent device that provides demarcation point
+* Contains circuit card in chassis
+* Built-in diagnostics options
+* Alarm indication capabilities
 
 ### vSwitch, vNIC, NFV, and Hypervisor&#x20;
 
+#### Hypervisor
 
+* Separates OS from applications and hardware
+* Allows host to run multiple VMs as guests to maximize resource use
 
+#### Benefits
 
+* VMs are separated from each other
+* Easily moved or migrated
 
+#### Types
 
+* Type 1 - native or bare metal
+* Type 2 - hosted
+
+#### Virtual Switch (vSwitch)
+
+* Application that permits communication between VMs
+* Directs communication by checking packets before sending them to a destination
+* Embedded in software or is part of server hardware firmware
+* Can connect to NIC and is entirely virtual
+
+#### Advantages
+
+* Eases virtual server migration and deployment
+* Admins can manage hypervisor-deployed virtual switches
+* Easier to roll out new functionality than a physical switch
+
+#### Virtual Network Interface Card (vNIC)
+
+* Used to connect virtual machines, with other nodes
+* Responsible for managing network communication
+* Every VM can have one or more virtual NICs installed to provide connectivity
+* Extra IP addresses can be assigned to a NIC to provide multiple subnet access
+
+#### Network Function Virtualization (NFV)
+
+* Decouples network functions from hardware and runs them on a software platform instead
+* Complements using software defines networking for managing networks
+* Focuses on network service optimization
+
+#### NFV
+
+* Created to meet service provider need for speeding up new network service deployment
 
 ### Test
