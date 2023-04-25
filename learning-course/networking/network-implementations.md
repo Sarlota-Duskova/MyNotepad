@@ -126,11 +126,22 @@ Output - Hub retransmits on all outgoing ports
 * Improve security
 * Provide access to blocked resources
 
+#### Voice Gateways and Repeaters
 
+* VoIP infrastructure
+* Connects network with telecommunications provider
+* Amplifies signal it receives (if you need to span a distance beyond that you can implement Repeater)
+* Physical layer
 
+#### Media Converters
 
+* Convert communication protocols
+* Increase cabling distance
+* Reduce interference
 
+#### VPN Concentrator
 
+* Centralize multiple incoming VPN connections
 
 
 
