@@ -19,6 +19,16 @@ OpenWrt - Linux OS
 
 
 
+RFID (Radio Frequency Identification)
+
+* Uses electromagnetic fields to automatically identify and track tags attached to objects.
+* Uses in identification of animals
+* Four categories of RFID:
+  * Low Frequency at 125KHz RFID card
+  * High Frequency at 13,56MHz RFID card
+  * Ultra-High Frequency at 860-960MHz RFID card
+  * Combination of two or even three different frequencies into a single RFID card
+
 
 
 
