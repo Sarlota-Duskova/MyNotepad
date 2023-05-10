@@ -38,7 +38,9 @@ RFID (Radio Frequency Identification)
 * **802.11ac (WiFi 5)** – range 2,4 GHz a 5 GHz, it offers multiple channels, suitable for playing online games and streaming various videos
 * **802.11ax (WiFi 6)** – the latest standard, range 2,4 GHz a 5 GHz, WPA3 security, extraordinary data transfer speed of up to 10 Gbps.
 
+BTS (Base Transceiver Station) - contains the equipment for transmitting and receiving radio signals (transceivers), antennas, and equipment for encrypting and decrypting communications with the base station contro
 
+* A BTS is controlled by a parent BSC via the "base station control function" (BCF)
 
 
 
