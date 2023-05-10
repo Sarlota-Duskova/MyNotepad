@@ -166,6 +166,7 @@
 
 * [Passive recon](red-team/passive-recon.md)
 * [Active recon](red-team/active-recon.md)
+* [Page 4](red-team/page-4.md)
 
 ## Group 1
 
