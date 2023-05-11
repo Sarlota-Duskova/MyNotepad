@@ -160,3 +160,10 @@ change to HDMI
 
 `./LCD-hdmi`
 
+### Start the SSH service with `systemctl`
+
+> ```
+> sudo systemctl enable ssh
+> sudo systemctl start ssh
+> ```
+
