@@ -40,9 +40,13 @@ RFID (Radio Frequency Identification)
 
 BTS (Base Transceiver Station) - contains the equipment for transmitting and receiving radio signals (transceivers), antennas, and equipment for encrypting and decrypting communications with the base station contro
 
-* A BTS is controlled by a parent BSC via the "base station control function" (BCF)
+* A BTS is controlled by a parent BSC via the "base station control function" (BCF) is implemented as a discrete unit or even incorporated in a TRX in compact base stations. The BCF is implemented as a discrete unit or even incorporated in a TRX in compact base stations.
+* The BCF provides an operations and maintenance connection to the network management system (NMS) and manages operational states of each TRX, as well as software handling and alarm collection.
 
+#### Wireless access point (AP)
 
+* Is a networking hardware device that allows other Wi-Fi devices to connect to a wired network.
+* Standalone device the AP may have a wired connection to a router, but in a wireless router, it can also be integral component of the router itself.
 
 
 
