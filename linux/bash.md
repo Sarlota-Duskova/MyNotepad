@@ -154,5 +154,9 @@ Users:
 
 `./LCD35B-show-v2`
 
+change to HDMI
 
+`cd LCD-show/`
+
+`./LCD-hdmi`
 
