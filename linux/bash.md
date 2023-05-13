@@ -232,7 +232,7 @@ wpa_pairwise=TKIP
 rsn_pairwise=CCMP
 ```
 
-sudo reboot
+`sudo reboot`
 
 
 
