@@ -185,6 +185,8 @@ Then enable it:
 
 `sudo systemctl enable hostapd.service`
 
+Need to delete to get back with wifi connection:
+
 `sudo nano /etc/dhcpcd.conf`
 
 ```
