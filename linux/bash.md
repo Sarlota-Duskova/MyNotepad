@@ -167,3 +167,72 @@ change to HDMI
 > sudo systemctl start ssh
 > ```
 
+#### Wifi Router
+
+`sudo apt install hostapd`
+
+`sudo apt install dnsmasq`
+
+`sudo DEBIAN_FRONTEND=noninteractive apt install -y netfilter-persistent iptables-persistent`
+
+Setting AP (Access Point)
+
+First remove it:
+
+`sudo systemctl unmask hostapd.service`
+
+Then enable it:
+
+`sudo systemctl enable hostapd.service`
+
+`sudo nano /etc/dhcpcd.conf`
+
+```
+interface wlan0
+           static ip_address=10.20.1.1/24
+           nohook wpa_supplicant
+```
+
+`sudo nano /etc/sysctl.d/router-ap.conf`
+
+&#x20;    net.ipv4.ip\_forward=1
+
+`sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE`
+
+`sudo netfilter-persistent save`
+
+`sudo mv /etc/dnsmasq.conf /etc/dnsmasq.conf.old`
+
+`sudo touch /etc/dnsmasq.conf`
+
+```
+interface=wlan0
+dhcp-range=10.20.1.5,10.20.1.100,255.255.255.0,72h
+domain=wlan
+address=/rt.wlan/10.20.1.1
+```
+
+`sudo touch /etc/hostapd/hostapd.conf`
+
+`sudo nano /etc/hostapd/hostapd.conf`
+
+```
+country_code=CZ
+interface=wlan0
+ssid=RaspberryPiWiFi
+hw_mode=a
+channel=36
+macaddr_acl=0
+auth_algs=1
+ignore_broadcast_ssid=0
+wpa=2
+wpa_passphrase=RaspberryPassword
+wpa_key_mgmt=WPA-PSK
+wpa_pairwise=TKIP
+rsn_pairwise=CCMP
+```
+
+sudo reboot
+
+
+
