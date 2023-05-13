@@ -345,7 +345,7 @@ bridge_ports eth0 wlan0
 
 `sudo reboot`
 
-
+[https://raspberrypi.stackexchange.com/questions/88954/workaround-for-a-wifi-bridge-on-a-raspberry-pi-with-proxy-arp/88955#88955](https://raspberrypi.stackexchange.com/questions/88954/workaround-for-a-wifi-bridge-on-a-raspberry-pi-with-proxy-arp/88955#88955)
 
 
 
