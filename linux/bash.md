@@ -262,7 +262,10 @@ Write in:
 
 ```
 interface wlan0
-static ip_address=192.168.1.2/24
+static ip_address=192.168.4.1/24
+interface eth0
+static ip_address=192.168.4.2/24
+
 denyinterfaces eth0
 denyinterfaces wlan0
 ```
@@ -277,7 +280,7 @@ Write in:
 
 ```
 interface=wlan0
-dhcp-range=192.168.0.11,192.168.0.30,255.255.255.0,72h
+dhcp-range=192.168.4.10,192.168.4.100,255.255.255.0,72h
 ```
 
 #### 5. Configure the access point host software (hostapd)
