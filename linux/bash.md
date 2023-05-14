@@ -352,7 +352,7 @@ bridge_ports eth0 wlan0
 
 
 
-
+Check to make sure that the wlan0 interface is up and running. You can check this by running the command "ip link show wlan0". If the interface is down, you can bring it up by running the command "sudo ip link set wlan0 up".
 
 
 
