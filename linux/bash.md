@@ -352,3 +352,12 @@ bridge_ports eth0 wlan0
 
 
 
+
+
+
+
+### VPN
+
+`wg0` is a network interface for a WireGuard VPN connection.&#x20;
+
+`tun0` is also a network interface that is used for VPN connections. It is typically used for OpenVPN connections.
