@@ -356,6 +356,8 @@ Check to make sure that the wlan0 interface is up and running. You can check thi
 
 
 
+You can check the IP address assigned to wlan0 by running the command "sudo ifconfig wlan0". It should display the IP address assigned to the wlan0 interface. If the IP address is not assigned, you can try running "sudo dhclient wlan0" to obtain an IP address from the DHCP server.
+
 ### VPN
 
 `wg0` is a network interface for a WireGuard VPN connection.&#x20;
