@@ -380,3 +380,6 @@ ssl stripping
 
 raid
 
+{% embed url="https://cyberdefenders.org/blueteam-ctf-challenges/" %}
+
+{% embed url="https://letsdefend.io/" %}
