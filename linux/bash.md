@@ -363,3 +363,18 @@ You can check the IP address assigned to wlan0 by running the command "sudo ifco
 `wg0` is a network interface for a WireGuard VPN connection.&#x20;
 
 `tun0` is also a network interface that is used for VPN connections. It is typically used for OpenVPN connections.
+
+
+
+Podivat se:
+
+arp spoofing
+
+aircraft engine
+
+ettercap
+
+ssl self-signed certificate
+
+ssl stripping
+
