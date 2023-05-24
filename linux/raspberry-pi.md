@@ -184,6 +184,18 @@ To use the 5 GHz band, you can change the operations mode from `hw_mode=g` to `h
 
 Note that when changing the `hw_mode`, you may need to also change the `channel` - see [Wikipedia](https://en.wikipedia.org/wiki/List\_of\_WLAN\_channels) for a list of allowed combinations.
 
+Add also this:
+
+```
+sudo nano /etc/default/hostapd
+```
+
+Track this line:
+
+```
+DAEMON_CONF="/etc/hostapd/hostapd.conf"
+```
+
 ### Running the new Wireless AP
 
 Now restart your Raspberry Pi and verify that the wireless access point becomes automatically available.
