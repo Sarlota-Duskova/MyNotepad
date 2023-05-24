@@ -36,6 +36,7 @@
 * [linux](linux/README.md)
   * [First check](linux/first-check.md)
   * [Bash](linux/bash.md)
+  * [Raspberry Pi](linux/raspberry-pi.md)
   * [GIT](linux/git.md)
   * [Nano](linux/nano.md)
   * [Cronjob](linux/cronjob.md)
