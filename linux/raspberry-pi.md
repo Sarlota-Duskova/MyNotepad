@@ -196,3 +196,11 @@ Once your Raspberry Pi has restarted, search for wireless networks with your wir
 
 If SSH is enabled on the Raspberry Pi, it should be possible to connect to it from your wireless client as follows, assuming the `pi` account is present: `ssh pi@192.168.4.1` or `ssh` [`pi@gw.wlan`](mailto:pi@gw.wlan)
 
+
+
+For debuging:
+
+```
+sudo hostapd -dd /etc/hostapd/hostapd.conf > /tmp/hostapd.log 
+```
+
