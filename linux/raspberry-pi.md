@@ -244,8 +244,22 @@ nmap `cat /tmp/file | grep '192\.' | grep -v Screen | cut -c2-34 | sort -u | awk
 
 ## ARP Spoof
 
+Before install mitmproxy install these:
+
 ```
-arpspoof -i eth0 -t 192.168.4.X 192.168.4.1
+apt-get install python-dev
+apt-get install libxml2-dev
+apt-get install libxslt-dev
+pip install mitmproxy
+```
+
+
+
+Package is dsniff, and arpspoof must be run as super user so use `sudo -s`&#x20;
+
+```
+arpspoof -i eth0 -t <victim ip> <gateway ip>
+arpspoof -i eth0 -t <gateway ip> <victim ip>
 ```
 
 #### MiTM Attack
