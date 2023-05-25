@@ -216,3 +216,61 @@ For debuging:
 sudo hostapd -dd /etc/hostapd/hostapd.conf > /tmp/hostapd.log 
 ```
 
+
+
+## Netdiscover
+
+```
+netdiscover -r 192.168.1.0/24
+```
+
+Direct the result to a file and it refreshes the scan every 2 seconds:
+
+```
+netdiscover -r 192.168.1.0/24 -s 2 -P >> /tmp/file
+```
+
+Use nslookup to get hostname:
+
+```
+cat /tmp/file | grep '192\.' | grep -v Screen | cut -c1-14 | sort -u | nslookup | grep name | cut -f 2 | cut -c8-
+```
+
+Use nmap:
+
+```
+nmap `cat /tmp/file | grep '192\.' | grep -v Screen | cut -c2-34 | sort -u | awk '{ print $1 }' | tr '\n' ' '` 
+```
+
+## ARP Spoof
+
+```
+arpspoof -i eth0 -t 192.168.4.X 192.168.4.1
+```
+
+#### MiTM Attack
+
+{% embed url="https://github.com/ReddyyZ/mitm.py" %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
