@@ -195,8 +195,14 @@ Output - Hub retransmits on all outgoing ports
 * Data in context
 * Attack analysis
 * Compliance
+* Increased efficiency&#x20;
 
+#### Disadvantages
 
+* False alarms
+* Source addresses
+* Encrypted packets
+* Analytic limitations
 
 
 
