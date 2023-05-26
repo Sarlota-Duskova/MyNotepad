@@ -143,21 +143,58 @@ Output - Hub retransmits on all outgoing ports
 
 * Centralize multiple incoming VPN connections
 
+### Firewall Security Devices
 
+* Firewall policies define access
 
+#### How Firewalls work
 
+* examine the contents of those packets
+* reject or allow based on what the contents are
 
+#### Firewall Options
 
+* Hardware
+* Software
 
+#### Firewall types
 
+* Application-layer
+* Packet filtering
+* Circuit-level
+* Proxy server
+* Next generation
+* Stateful
 
+#### Network Firewall Advantages
 
+* Monitor network traffic
+* Stop attacks
+* Prevent hacking
+* Stop spyware
+* Promote privacy
 
+### Intrusion Detection System (IDS)
 
+* Monitors for malicious activity and policy violations
+* Collects and/or reports
 
+#### Classifications
 
+* NIDS (Network Intrusion Detection System) - physical device that sits at the edge of your network and is designed to protect the entire network
+* HIDS (Host-based Intrusion Detection System) - is a software
 
+#### Types
 
+* Signature-based
+* Anomaly-based
+
+#### Advantages
+
+* Can be tuned
+* Data in context
+* Attack analysis
+* Compliance
 
 
 
