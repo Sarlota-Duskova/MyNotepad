@@ -23,3 +23,15 @@ aws s3 ls s3://bucket-name
 ps aux | grep xrdp
 sudo kill process
 ```
+
+### Ip address
+
+```
+dig www.website.com
+ripe.net na ip addressu
+```
+
+
+
+
+
