@@ -6,20 +6,7 @@ Stabilize shell:
 
 Spawn a process, and connect its controlling terminal with the current process’s standard io. This is often used to baffle programs which insist on reading from the controlling terminal.
 
-|      Command      |             Full name             |            Purpose           |
-| :---------------: | :-------------------------------: | :--------------------------: |
-|       touch       |               touch               |          create file         |
-|       mkdir       |           make directory          |        create a folder       |
-|         cp        |                copy               |     copy a file or folder    |
-|         mv        |                move               |     move a file or folder    |
-|         rm        |               remove              |    remove a file or folder   |
-|        file       |                file               | determine the type of a file |
-|       man ls      |             manual ls             |           manual ls          |
-|       ls -a       |     list files and directories    |        list all files        |
-|     su -user2     |            switch user            |        switch to user2       |
-|        PID        |   process identification number   |        PID process ID        |
-|       ps aux      | snapshot of the current processes |       running processes      |
-| Find . -name ‘\*’ |               find                |       shows all folders      |
+<table><thead><tr><th width="134" align="center">Command</th><th width="153" align="center">Full name</th><th align="center">Purpose</th></tr></thead><tbody><tr><td align="center">touch</td><td align="center">touch</td><td align="center">create file</td></tr><tr><td align="center">mkdir</td><td align="center">make directory</td><td align="center">create a folder</td></tr><tr><td align="center">cp</td><td align="center">copy</td><td align="center">copy a file or folder</td></tr><tr><td align="center">mv</td><td align="center">move</td><td align="center">move a file or folder</td></tr><tr><td align="center">rm</td><td align="center">remove</td><td align="center">remove a file or folder</td></tr><tr><td align="center">file</td><td align="center">file</td><td align="center">determine the type of a file</td></tr><tr><td align="center">man ls</td><td align="center">manual ls</td><td align="center">manual ls</td></tr><tr><td align="center">ls -a</td><td align="center">list files and directories</td><td align="center">list all files</td></tr><tr><td align="center">su -user2</td><td align="center">switch user</td><td align="center">switch to user2</td></tr><tr><td align="center">PID</td><td align="center">process identification number</td><td align="center">PID process ID</td></tr><tr><td align="center">ps aux</td><td align="center">snapshot of the current processes</td><td align="center">running processes</td></tr><tr><td align="center">Find . -name ‘*’</td><td align="center">find </td><td align="center">shows all folders</td></tr></tbody></table>
 
 **ctrl + shift + c** - copy text
 
@@ -383,3 +370,4 @@ raid
 {% embed url="https://cyberdefenders.org/blueteam-ctf-challenges/" %}
 
 {% embed url="https://letsdefend.io/" %}
+

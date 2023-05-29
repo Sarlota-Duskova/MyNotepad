@@ -14,3 +14,12 @@
 6. You can now use the aws command followed by the name of the service you wish to interact with, such as aws s3, to perform operations on AWS resources using the credentials you configured.
 
 aws s3 ls s3://bucket-name
+
+
+
+### Windows
+
+```
+ps aux | grep xrdp
+sudo kill process
+```
