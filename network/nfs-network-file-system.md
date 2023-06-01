@@ -6,10 +6,4 @@
 
 `sudo mount -t nfs IP:share /tmp/mount/ -nolock`
 
-|    Tag   |                                   Function                                   |
-| :------: | :--------------------------------------------------------------------------: |
-|   sudo   |                                  Run as root                                 |
-|   mount  |                           Execute the mount command                          |
-|  -t nfs  |            Type of device to mount, then specifying that it's NFS            |
-| IP:share | The IP Address of the NFS server, and the name of the share we wish to mount |
-|  -nolock |                       Specifies not to use NLM locking                       |
+<table><thead><tr><th width="115.5" align="center">Tag</th><th align="center">Function</th></tr></thead><tbody><tr><td align="center">sudo</td><td align="center">Run as root</td></tr><tr><td align="center">mount</td><td align="center">Execute the mount command</td></tr><tr><td align="center">-t nfs</td><td align="center">Type of device to mount, then specifying that it's NFS</td></tr><tr><td align="center">IP:share</td><td align="center">The IP Address of the NFS server, and the name of the share we wish to mount</td></tr><tr><td align="center">-nolock</td><td align="center">Specifies not to use NLM locking</td></tr></tbody></table>

@@ -2,34 +2,11 @@
 
 
 
-|         Port Scan Type         |                    Example Command                   |
-| :----------------------------: | :--------------------------------------------------: |
-|          TCP Null Scan         |               sudo nmap -sN MACHINE\_IP              |
-|          TCP FIN Scan          |               sudo nmap -sF MACHINE\_IP              |
-|          TCP Xmas Scan         |               sudo nmap -sX MACHINE\_IP              |
-|         TCP Maimon Scan        |               sudo nmap -sM MACHINE\_IP              |
-|          TCP ACK Scan          |               sudo nmap -sA MACHINE\_IP              |
-|         TCP Window Scan        |               sudo nmap -sW MACHINE\_IP              |
-|         Custom TCP Scan        | sudo nmap --scanflags URGACKPSHRSTSYNFIN MACHINE\_IP |
-|        Spoofed Source IP       |         sudo nmap -S SPOOFED\_IP MACHINE\_IP         |
-|       Spoofed MAC Address      |               --spoof-mac SPOOFED\_MAC               |
-|           Decoy Scan           |           nmap -D DECOY\_IP,ME MACHINE\_IP           |
-|       Idle (Zombie) Scan       |         sudo nmap -sI ZOMBIE\_IP MACHINE\_IP         |
-|  Fragment IP data into 8 bytes |                          -f                          |
-| Fragment IP data into 16 bytes |                          -ff                         |
+<table><thead><tr><th width="264.5" align="center">Port Scan Type</th><th align="center">Example Command</th></tr></thead><tbody><tr><td align="center">TCP Null Scan</td><td align="center">sudo nmap -sN MACHINE_IP</td></tr><tr><td align="center">TCP FIN Scan</td><td align="center">sudo nmap -sF MACHINE_IP</td></tr><tr><td align="center">TCP Xmas Scan</td><td align="center">sudo nmap -sX MACHINE_IP</td></tr><tr><td align="center">TCP Maimon Scan</td><td align="center">sudo nmap -sM MACHINE_IP</td></tr><tr><td align="center">TCP ACK Scan</td><td align="center">sudo nmap -sA MACHINE_IP</td></tr><tr><td align="center">TCP Window Scan</td><td align="center">sudo nmap -sW MACHINE_IP</td></tr><tr><td align="center">Custom TCP Scan</td><td align="center">sudo nmap --scanflags URGACKPSHRSTSYNFIN MACHINE_IP</td></tr><tr><td align="center">Spoofed Source IP</td><td align="center">sudo nmap -S SPOOFED_IP MACHINE_IP</td></tr><tr><td align="center">Spoofed MAC Address</td><td align="center">--spoof-mac SPOOFED_MAC</td></tr><tr><td align="center">Decoy Scan</td><td align="center">nmap -D DECOY_IP,ME MACHINE_IP</td></tr><tr><td align="center">Idle (Zombie) Scan</td><td align="center">sudo nmap -sI ZOMBIE_IP MACHINE_IP</td></tr><tr><td align="center">Fragment IP data into 8 bytes</td><td align="center">-f</td></tr><tr><td align="center">Fragment IP data into 16 bytes</td><td align="center">-ff</td></tr></tbody></table>
 
-|          Option         |                  Purpose                 |
-| :---------------------: | :--------------------------------------: |
-| --source-port PORT\_NUM |        specify source port number        |
-|    --data-length NUM    | append random data to reach given length |
+<table><thead><tr><th width="255.5" align="center">Option</th><th align="center">Purpose</th></tr></thead><tbody><tr><td align="center">--source-port PORT_NUM</td><td align="center">specify source port number</td></tr><tr><td align="center">--data-length NUM</td><td align="center">append random data to reach given length</td></tr></tbody></table>
 
-|  Option  |                Purpose                |
-| :------: | :-----------------------------------: |
-| --reason | explains how Nmap made its conclusion |
-|    -v    |                verbose                |
-|    -vv   |              very verbose             |
-|    -d    |               debugging               |
-|    -dd   |       more details for debugging      |
+<table><thead><tr><th width="127.5" align="center">Option</th><th align="center">Purpose</th></tr></thead><tbody><tr><td align="center">--reason</td><td align="center">explains how Nmap made its conclusion</td></tr><tr><td align="center">-v</td><td align="center">verbose</td></tr><tr><td align="center">-vv</td><td align="center">very verbose</td></tr><tr><td align="center">-d</td><td align="center">debugging</td></tr><tr><td align="center">-dd</td><td align="center">more details for debugging</td></tr></tbody></table>
 
 ## TCP Null, FIN, Xmas scan
 

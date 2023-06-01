@@ -1,17 +1,3 @@
 # Common Protocols Port
 
-| Protocol | TCP Port |          Application(s)         | Data Security |
-| :------: | :------: | :-----------------------------: | :-----------: |
-|    FTP   |    21    |          File Transfer          |   Cleartext   |
-|   FTPS   |    990   |          File Transfer          |   Encrypted   |
-|   HTTP   |    80    |          Worldwide Web          |   Cleartext   |
-|   HTTPS  |    443   |          Worldwide Web          |   Encrypted   |
-|   IMAP   |    143   |           Email (MDA)           |   Cleartext   |
-|   IMAPS  |    993   |           Email (MDA)           |   Encrypted   |
-|   POP3   |    110   |           Email (MDA)           |   Cleartext   |
-|   POP3S  |    995   |           Email (MDA)           |   Encrypted   |
-|   SFTP   |    22    |          File Transfer          |   Encrypted   |
-|    SSH   |    22    | Remote Access and File Transfer |   Encrypted   |
-|   SMTP   |    25    |           Email (MTA)           |   Cleartext   |
-|   SMTPS  |    465   |           Email (MTA)           |   Encrypted   |
-|  Telnet  |    23    |          Remote Access          |   Cleartext   |
+<table><thead><tr><th width="122" align="center">Protocol</th><th width="103" align="center">TCP Port</th><th width="215" align="center">Application(s)</th><th align="center">Data Security</th></tr></thead><tbody><tr><td align="center">FTP</td><td align="center">21</td><td align="center">File Transfer</td><td align="center">Cleartext</td></tr><tr><td align="center">FTPS</td><td align="center">990</td><td align="center">File Transfer</td><td align="center">Encrypted</td></tr><tr><td align="center">HTTP</td><td align="center">80</td><td align="center">Worldwide Web</td><td align="center">Cleartext</td></tr><tr><td align="center">HTTPS</td><td align="center">443</td><td align="center">Worldwide Web</td><td align="center">Encrypted</td></tr><tr><td align="center">IMAP</td><td align="center">143</td><td align="center">Email (MDA)</td><td align="center">Cleartext</td></tr><tr><td align="center">IMAPS</td><td align="center">993</td><td align="center">Email (MDA)</td><td align="center">Encrypted</td></tr><tr><td align="center">POP3</td><td align="center">110</td><td align="center">Email (MDA)</td><td align="center">Cleartext</td></tr><tr><td align="center">POP3S</td><td align="center">995</td><td align="center">Email (MDA)</td><td align="center">Encrypted</td></tr><tr><td align="center">SFTP</td><td align="center">22</td><td align="center">File Transfer</td><td align="center">Encrypted</td></tr><tr><td align="center">SSH</td><td align="center">22</td><td align="center">Remote Access and File Transfer</td><td align="center">Encrypted</td></tr><tr><td align="center">SMTP</td><td align="center">25</td><td align="center">Email (MTA)</td><td align="center">Cleartext</td></tr><tr><td align="center">SMTPS</td><td align="center">465</td><td align="center">Email (MTA)</td><td align="center">Encrypted</td></tr><tr><td align="center">Telnet</td><td align="center">23</td><td align="center">Remote Access</td><td align="center">Cleartext</td></tr></tbody></table>

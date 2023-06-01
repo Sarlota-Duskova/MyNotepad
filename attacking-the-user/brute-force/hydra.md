@@ -8,28 +8,10 @@
 
 `hydra -l <username> -P <full path to pass> MACHINE_IP -t 4 ssh`
 
-| Option |              Description              |
-| :----: | :-----------------------------------: |
-|   -l   |            single username            |
-|   -L   |        use a list of usernames        |
-|   -p   |            single password            |
-|   -P   |        use a list of passwords        |
-|   -t   | specifes the number of threads to use |
+<table><thead><tr><th width="171.5" align="center">Option</th><th align="center">Description</th></tr></thead><tbody><tr><td align="center">-l</td><td align="center">single username</td></tr><tr><td align="center">-L</td><td align="center">use a list of usernames</td></tr><tr><td align="center">-p</td><td align="center">single password</td></tr><tr><td align="center">-P</td><td align="center">use a list of passwords</td></tr><tr><td align="center">-t</td><td align="center">specifes the number of threads to use</td></tr></tbody></table>
 
 #### Post Web Form
 
 `hydra -l <username> -P <wordlist> 10.10.126.20 http-post-form "/:username=^USER^&password=^PASS^:F=incorrect" -V`
 
-|     Option     |                          Description                          |
-| :------------: | :-----------------------------------------------------------: |
-| http-post-form |               indicates the type of form (post)               |
-|   /login url   |                       the login page URL                      |
-|    :username   |          the form field where the username is entered         |
-|     ^USER^     |                tells Hydra to use the username                |
-|    password    |          the form field where the password is entered         |
-|     ^PASS^     |     tells Hydra to use the password list supplied earlier     |
-|      Login     |          indicates to Hydra the Login failed message          |
-|  Login failed  |       is the login failure message that the form returns      |
-|   F=incorrect  |        If this word appears on the page, its incorrect        |
-|    -V or -vV   |    Show the username and password combinations being tried    |
-|       -d       | Display debugging output if the verbose output is not helping |
+<table><thead><tr><th width="168.5" align="center">Option</th><th align="center">Description</th></tr></thead><tbody><tr><td align="center">http-post-form</td><td align="center">indicates the type of form (post)</td></tr><tr><td align="center">/login url</td><td align="center">the login page URL</td></tr><tr><td align="center">:username</td><td align="center">the form field where the username is entered</td></tr><tr><td align="center">^USER^</td><td align="center">tells Hydra to use the username</td></tr><tr><td align="center">password</td><td align="center">the form field where the password is entered</td></tr><tr><td align="center">^PASS^</td><td align="center">tells Hydra to use the password list supplied earlier</td></tr><tr><td align="center">Login</td><td align="center">indicates to Hydra the Login failed message</td></tr><tr><td align="center">Login failed</td><td align="center">is the login failure message that the form returns</td></tr><tr><td align="center">F=incorrect</td><td align="center">If this word appears on the page, its incorrect</td></tr><tr><td align="center">-V or -vV</td><td align="center">Show the username and password combinations being tried</td></tr><tr><td align="center">-d</td><td align="center">Display debugging output if the verbose output is not helping</td></tr></tbody></table>

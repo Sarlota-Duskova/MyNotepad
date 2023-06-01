@@ -1,7 +1,8 @@
 # Table of contents
 
 * [README](README.md)
-* [Bounty](bounty.md)
+* [Bounty](bounty/README.md)
+  * [Virtual machine](bounty/virtual-machine.md)
 * [Learning course](learning-course/README.md)
   * [OWASP Top 10 2021](learning-course/owasp-top-10-2021/README.md)
     * [1. Broken Access Control](learning-course/owasp-top-10-2021/1.-broken-access-control.md)

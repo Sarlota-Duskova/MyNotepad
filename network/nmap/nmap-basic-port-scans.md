@@ -6,16 +6,7 @@
 |   TCP SYN Scan   | sudo nmap -sS MACHINE\_IP |
 |   UDP Scan sudo  |    nmap -sU MACHINE\_IP   |
 
-|         Option        |                  Purpose                 |
-| :-------------------: | :--------------------------------------: |
-|          -p-          |                 all ports                |
-|        -p1-1023       |           scan ports 1 to 1023           |
-|           -F          |           100 most common ports          |
-|           -r          |      scan ports in consecutive order     |
-|        -T<0-5>        | -T0 being the slowest and T5 the fastest |
-|     --max-rate 50     |          rate <= 50 packets/sec          |
-|     --min-rate 15     |          rate >= 15 packets/sec          |
-| --min-parallelism 100 |      at least 100 probes in parallel     |
+<table><thead><tr><th width="251.5" align="center">Option</th><th align="center">Purpose</th></tr></thead><tbody><tr><td align="center">-p-</td><td align="center">all ports</td></tr><tr><td align="center">-p1-1023</td><td align="center">scan ports 1 to 1023</td></tr><tr><td align="center">-F</td><td align="center">100 most common ports</td></tr><tr><td align="center">-r</td><td align="center">scan ports in consecutive order</td></tr><tr><td align="center">-T&#x3C;0-5></td><td align="center">-T0 being the slowest and T5 the fastest</td></tr><tr><td align="center">--max-rate 50</td><td align="center">rate &#x3C;= 50 packets/sec</td></tr><tr><td align="center">--min-rate 15</td><td align="center">rate >= 15 packets/sec</td></tr><tr><td align="center">--min-parallelism 100</td><td align="center">at least 100 probes in parallel</td></tr></tbody></table>
 
 #### Nmap considers the following six states:
 
