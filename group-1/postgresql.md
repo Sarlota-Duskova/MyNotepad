@@ -245,7 +245,9 @@ Rebuild database
 psql -U postgres < worldcup.sql
 ```
 
+Information Schema options:
 
+{% embed url="https://www.postgresql.org/docs/current/information-schema.html" %}
 
 
 
