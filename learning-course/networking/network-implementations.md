@@ -242,75 +242,189 @@ Examples:
 * Enhanced features - custom voicemail messages, video capability, e-mail system
 * Reduced infrastructure
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Internet of Things (IoT)
 
+#### Maximizing Productivity with IoT
 
+* Real-time tracking
+* Employee data collection
+* Facilities management
+* Remote troubleshooting and repairs
+* Automation
 
+### Supervisory Control and Data Acquisition (SCADA)
 
+* Collects and analyzes real-time data
+* Monitoring and controlling operations
 
-### Supervisory Control and Data Acquisition
+#### SCADA Applications
 
+* Local or remote control
+* Monitor, gather, and process real-time data
+* Device interaction
+* Record events
 
+#### SCADA Systems
 
+* Master Terminal Unit (MTU)
+* Remote Terminal Unit (RTU)
+* Human Machine Interface (HMI)
 
+#### SCADA Benefits
+
+* Information reliability and accuracy
+* Real-time notifications
+* Trend analysis
+* Proactive maintenance
+* Increased equipment lifespan
+* Informed decisions
+
+#### SCADA Disadvantages
+
+* Initial investment is significant
+* Adaption to new system
+* Training on new technology
+* Support after purchase
+* Maintenance time and costs
 
 ### Common Routing Protocols
 
+* How routers communicate with each other
 
+#### Routing Information Protocol (RIP)
 
+* LANs
+* WANs
+* Application layer
 
+#### Open Shortest Path First (OSPF)
+
+* Shortest Path First (SPF) algorithm
+* Link State Advertisements (LSAs)
+* Monitors topology changes
+
+#### Enhanced Interior Gateway Routing Protocol (EIGRP)
+
+* Use only within organization
+* Reliable Transport Protocol (RTP)
+* Diffusing Update Algorithm (DUAL)
+* Border Gateway Protocol (BGP)
+  * Routing protocol of the Internet
+  * Uses a best path algorithm
+  * Customized or automatic
+  * Supports authentication
 
 ### Link State vs. Distance Vector Routing Protocols
 
+* Specifies how routers make decisions
+* Distance Vector considers hops
+* Link State considers network conditions
 
+#### Distance Vector Protocols
 
+* Hop-by-hop
+* Relies on neighbor routers
+* Slower to converge
+* Easy to implement and maintain
 
+#### Link State Routing Protocols
+
+* Uses SPF (Shortest Path First) algorithm
+* Faster convergence
+* Less routing traffic overhead
+* More difficult to implement and maintain
+
+#### Hybrid Routing Protocols
+
+* Characteristics of both distance vector and link state protocols
+* Fast-converging
+* Scalable
 
 ### Static and Default Routes
 
+#### Static
 
+* Created manually
+* Smaller networks
+* Manual routing table entries and updates
+* Specifies how to reach destination using specific path
 
+**Benefits:**
 
+* Less processing and resource requirements
+* Fewer router-to-router updates
+* Security
+
+**Disadvantages:**
+
+* Expertise required
+* Time consuming maintenance
+
+#### Default
+
+* Type of static route
+* Specifies how to reach destination when path unknown
+* Only in stub networks (only one output interface and everything going through those networks has to cross that single exit point)
+
+#### Administrative Distance
+
+* Selects best path
+* Two or more routes over two or more protocols
+* Routing protocols prioritized
+
+#### Time-to-Live (TTL)
+
+* Refers to amount of time packet set to exist
+* Mitigates risk of indefinite packet circulation
+* Identifies information about a packet's path
+
+#### Comparing Interior and Exterior Routing
+
+**IGP (Interior Gateway Protocol)**
+
+* Finds network path information within an autonomous system
+* Examples: RIP (Routing Information Protocol), IGRP (Interior Gateway Routing Protocol), OSPF (Open Shortest Path First)
+
+**(EGP )Exterior Gateway Protocol**
+
+* Finds network path between different autonomous systems
+* Exchanges routing table information
+* Example: BGP (Border Gateway Protocol)
 
 ### Bandwidth Management Concepts
 
+* Differentiate user traffic using criteria
+* Assign priorities
 
+#### Quality of Service (QoS) Features
+
+* Set up guarantees, limits and priorities
+* Active Queue Management (AQM)
+* Read or write DiffServ Code Point (DSCP) type of service (ToS) markers
+* Collect statistics
+
+**QoS Limitations**
+
+* Limited availability on interfaces
+* Bandwidth guaranteers or limitations
+* Multiple assignment requirements
+
+**QoS classes**
+
+* High priority
+* Normal priority
+* Low priority
+
+#### Traffic Shaping
+
+* Delays the flow of certain types of network traffic
+* Ensures network performance for higher priority applications
+* Limits bandwidth use by certain applications
+
+**Traffic Shaping Types:**
+
+* Application-based
+* Route-based
 
 ### Test
 
