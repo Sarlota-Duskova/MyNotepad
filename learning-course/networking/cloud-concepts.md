@@ -464,6 +464,7 @@ A community cloud offers which primary benefits to its users?
 Which characteristics about a local resource such as storage are typically enhanced by switching to a cloud-based model?
 
 * Disaster recovery
+* Cost
 
 A hybrid cloud deployment refers to which type of implementation?
 
