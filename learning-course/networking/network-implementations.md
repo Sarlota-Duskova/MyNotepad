@@ -428,7 +428,17 @@ Examples:
 
 ### Test
 
+In which type of organizations or institutions would you be most likely to find a SCADA system?
 
+* Factories or automation plants
+
+In which type of environment would you be most likely to find an implementation of static routing?
+
+* A small to medium sized business with several routers
+
+Quality of service is designed to provide better traffic management through the use of which primary characteristic?
+
+* Prioritizing applications or services
 
 
 
