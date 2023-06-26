@@ -258,8 +258,58 @@ They are:
 
 ### Test
 
+In which portion of the DNS namespace would you find entries such as .com, .org, or .gov?
 
+* Top-level
 
+Which situation or scenario would most closely resemble the use of a colocation data center?
 
+* Renting out your current house
 
-&#x20;
+The GPS or atomic clocks used for time synchronization in the NTP protocol reside at which stratum?
+
+* 0
+
+Which feature of the DNS protocol can enhance the speed of name resolution requests?
+
+* Caching
+
+A spine and leaf architecture in a data center can alleviate the need for which protocol?
+
+* STP
+
+Which type of DNS record is actually responsible for recording the hostname to IP address mapping?
+
+* A or AAAA
+
+IPAM is designed to be used to manage which basic types of systems or devices?
+
+* Servers
+
+The authoritative server for your domain is indicated by which type of DNS record?
+
+* SOA
+
+The basis of software-defined networking would be most closely associated with which computing method or service?
+
+* Virtualization
+
+North-south traffic in a data center refers to which type of communication?
+
+* Client to server
+
+Which protocol would you most likely be using to access your SAN if your implementation uses only fiber-optics?
+
+* FCP
+
+A client system might receive many of which type of DHCP message if there are several DHCP servers in your network?
+
+* Offer
+
+The DNS database for the Internet is implemented in a distributed fashion due for which basic reason?
+
+* There a too many systems on the public Internet
+
+The spanning-tree protocol sometimes used in the three-tier data center architecture is designed to correct which type of network traffic problem?
+
+* Looping
