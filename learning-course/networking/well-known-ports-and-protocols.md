@@ -561,6 +561,106 @@ When a client make a connection to their web servers, they receive a public key,
 
 ### Test
 
+The secure file transfer protocol runs over which other utility or protocol by default?
+
+* SSH
+
+**“**Computername=Client1” would represent which component of the Lightweight Directory Access Protocol?
+
+* Attribute
+
+Which port is used to secure IMAP over SSL communications?
+
+* 993
+
+The SMB protocol is used primarily for which type of networking service?
+
+* Sharing resources such as files or printers
+
+Which Syslog severity code would be used for informational messages only?
+
+* 6
+
+Place each DHCP phase in the correct sequence.
+
+* Discover
+* Offer
+* Request
+* Acknowledgment
+* Address allocation
+
+Which HTTP messages are only included in response messages?
+
+* Status message
+* Status code
+
+The IMAP protocol uses which port by default?
+
+* 143
+
+Which component of SMTP TLS refers to the fact that users can be assured that the original content of a message has not been altered during transit?
+
+* Data integrity
+
+Which primary concerns in a networking environment can be addressed by the Network Time Protocol?
+
+* Performing task sequences or applying updates
+* Network Security
+
+What is the correct configuration of the encryption keys used to secure a transaction such as ordering a product with a credit card on a website?
+
+*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
