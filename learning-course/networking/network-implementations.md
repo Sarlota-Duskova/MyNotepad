@@ -440,5 +440,49 @@ Quality of service is designed to provide better traffic management through the 
 
 * Prioritizing applications or services
 
+A distance-vector protocol considers which factors when deciding on the best route for a packet?
 
+* The number of hops
+
+Which type of networking device is responsible for retrieving web-based content on behalf of other users?
+
+* Proxy server
+
+At which layer of the OSI model do hubs operate?
+
+* 1
+
+IoT refers to which characteristics about a networking environment?
+
+* The ability to gather and analyze large amount of data
+
+Which classification of router would be used to connect your organization to the internet?
+
+* Edge
+
+The implementation of physical access controls in a networking environment most commonly refers to which type of system?
+
+* Door locking systems
+
+A layer 3 switch is capable of identifying which networking components and/or able to perform which types of services beyond layer 2 switching?
+
+* IP addresses
+* Routing
+
+Which routing protocol would be most accurately described as the “protocol of the internet”?
+
+* BGP
+
+Which type of intrusion detection system operates based on the normal activity of your environment?
+
+* Anomaly-based
+
+Implementing a hosted VoIP solution would indicate that your organization does not have which components?
+
+* An SIP server
+* A PBX
+
+Which type of firewall controls traffic based on port values?
+
+* Application-layer
 
