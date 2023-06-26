@@ -419,7 +419,15 @@
 
 ### Test
 
+Which term would most accurately describe the type environment that is created by using Infrastructure as Code?
 
+* Repeatable
+
+The Platform as a Service model is most often implemented for which type of users?
+
+* Developers
+
+A private cloud would most likely be implemented by which type of organization?
 
 
 
