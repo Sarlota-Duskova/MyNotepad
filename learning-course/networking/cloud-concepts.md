@@ -429,7 +429,63 @@ The Platform as a Service model is most often implemented for which type of user
 
 A private cloud would most likely be implemented by which type of organization?
 
+* An existing company with significant resources looking to expand
 
+Which risk factor is typically a primary concern in a Software as a Service implementation?
 
+* Identity management
 
+Which risk mitigation technique refers to the process of reviewing which users have or have not been able to perform a certain task, or access a certain resource?
 
+* Auditing
+
+Scalability in terms of cloud services refers to which characteristic?
+
+* The ability for a solution to have increased or decreased resources as needed
+
+Which statement most accurately describes elasticity in cloud computing?
+
+* Resources are allocated based on demand
+
+Which type of connection to your cloud provider typically involves a dedicated connection through your telecommunications provider?
+
+* Direct connection
+
+Which statements correctly describe the model of public cloud computing?
+
+* Security and privacy may be a concern
+* Only pay for what you use
+
+A community cloud offers which primary benefits to its users?
+
+* A collaborative environment
+* Shared access
+
+Which characteristics about a local resource such as storage are typically enhanced by switching to a cloud-based model?
+
+* Disaster recovery
+
+A hybrid cloud deployment refers to which type of implementation?
+
+* An organization that has implemented both a public and a private cloud solution
+
+Which types of services or applications would be classified as Software as a Service?
+
+* Databases
+* Enterprise resource planning applications
+* Customer management applications
+
+Desktop as a Service most closely resembles which type of service or application?
+
+* Remote Desktop
+
+Which types of services or applications would be classified as Infrastructure as a Service?
+
+* Virtual machines or networks
+* Operating systems
+
+Which characteristics of multi-tenancy might be considered to be disadvantages?
+
+* Performance
+* Security
+* Compliance
