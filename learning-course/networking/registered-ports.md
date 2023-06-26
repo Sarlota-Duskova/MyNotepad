@@ -224,11 +224,33 @@ Configuration Files:
 
 ### Test
 
+Which types of applications or services make use of the Session Initiation Protocol?
 
+* Voice over IP devices
+* Video conferencing applications
+* Chat or instant messaging applications
 
+The Remote Desktop Protocol is primarily used for which activities?
 
+* Accessing a remote system to run an application
+* Managing and administering a remote computer from your local computer
 
+What is the primary advantage of using the User Datagram Protocol over a connectionless communication channel?
 
+* Speed
 
+Which file is used to configure a database server to accept client requests using SQLnet?
 
+* listener.ora
 
+The Microsoft implementation of the Structured Query Language operates over which port by default?
+
+* 1433
+
+The MySQL protocol operates over which TCP port?
+
+* 3306
+
+Which protocol is used as an error messaging standard and can provide feedback as to the state of communications?
+
+* ICMP
