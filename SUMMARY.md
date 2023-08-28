@@ -25,7 +25,7 @@
     * [Network Services & Data Center Architectures](learning-course/networking/network-services-and-data-center-architectures.md)
     * [Cloud Concepts](learning-course/networking/cloud-concepts.md)
     * [Network Implementations](learning-course/networking/network-implementations.md)
-    * [Page 10](learning-course/networking/page-10.md)
+    * [Ethernet Switching & Wireless Standards](learning-course/networking/ethernet-switching-and-wireless-standards.md)
     * [Page 9](learning-course/networking/page-9.md)
     * [Page 8](learning-course/networking/page-8.md)
     * [Page 7](learning-course/networking/page-7.md)
