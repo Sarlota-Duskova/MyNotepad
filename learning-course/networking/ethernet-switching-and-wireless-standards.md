@@ -21,11 +21,11 @@
 
 **LAN Topology**
 
-OBRAZEK
+![](../../.gitbook/assets/lan.jpg)
 
 **VLAN Configuration**
 
-OBRAZEK
+![](<../../.gitbook/assets/vlan (2).jpg>)
 
 **VLAN Membership**
 
@@ -41,13 +41,13 @@ OBRAZEK
 
 * Identifies VLAN membership across multiple switches
 
-OBRAZEK
+![](../../.gitbook/assets/trunk\_tagging.jpg)
 
 ## Voice VLAN Configurations
 
 * Allocated for VoIP systems
 
-OBRAZEK
+![](../../.gitbook/assets/voicevlan.jpg)
 
 **Benefits**
 
@@ -74,7 +74,7 @@ OBRAZEK
 
 * Send or receive
 
-OBRAZEK
+![](../../.gitbook/assets/duplex.jpg)
 
 ### Link Aggregation Control Protocol (LACP)
 
@@ -105,7 +105,7 @@ OBRAZEK
 
 ### Jumbo Frames
 
-OBRAZEK
+![](../../.gitbook/assets/jumbo.jpg)
 
 ### Ethernet Interfaces
 
@@ -120,7 +120,7 @@ OBRAZEK
 * A media access control (MAC) address is 48-bit long, represented by 12 hexadecimal characters, and coded into the network interface upon manufacture
 * Example MAC address: 00:AA:19:9A:58:B4
 
-OBRAZEK
+![](../../.gitbook/assets/mac.jpg)
 
 OUI (Organizationally Unique Identifier) - allocated to a particular vendor or manufacturer by the IEEE (Institute of Electrical and Electronics Engineers)
 
@@ -177,9 +177,7 @@ Only main difference here is the amount of power that is going to be required fo
 
 **Looping example:**
 
-OBRAZEK
-
-
+![](../../.gitbook/assets/looping.jpg)
 
 **Advantages**
 
@@ -214,7 +212,7 @@ STP is being replaced through different architectures in data centers and the us
 
 **CSMA/CD Process**
 
-OBRAZEK
+![](../../.gitbook/assets/csmad.jpg)
 
 **Protocols**
 
