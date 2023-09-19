@@ -21,11 +21,11 @@
 
 **LAN Topology**
 
-![](../../.gitbook/assets/lan.jpg)
+<figure><img src="../../.gitbook/assets/lan.jpg" alt=""><figcaption></figcaption></figure>
 
 **VLAN Configuration**
 
-![](<../../.gitbook/assets/vlan (2).jpg>)
+<figure><img src="../../.gitbook/assets/vlan.jpg" alt=""><figcaption></figcaption></figure>
 
 **VLAN Membership**
 
@@ -41,13 +41,13 @@
 
 * Identifies VLAN membership across multiple switches
 
-![](../../.gitbook/assets/trunk\_tagging.jpg)
+<figure><img src="../../.gitbook/assets/trunk_tagging.jpg" alt=""><figcaption></figcaption></figure>
 
 ## Voice VLAN Configurations
 
 * Allocated for VoIP systems
 
-![](../../.gitbook/assets/voicevlan.jpg)
+<figure><img src="../../.gitbook/assets/voicevlan.jpg" alt=""><figcaption></figcaption></figure>
 
 **Benefits**
 
@@ -74,7 +74,7 @@
 
 * Send or receive
 
-![](../../.gitbook/assets/duplex.jpg)
+<figure><img src="../../.gitbook/assets/duplex.jpg" alt=""><figcaption></figcaption></figure>
 
 ### Link Aggregation Control Protocol (LACP)
 
@@ -105,7 +105,7 @@
 
 ### Jumbo Frames
 
-![](../../.gitbook/assets/jumbo.jpg)
+<figure><img src="../../.gitbook/assets/jumbo.jpg" alt=""><figcaption></figcaption></figure>
 
 ### Ethernet Interfaces
 
@@ -120,7 +120,7 @@
 * A media access control (MAC) address is 48-bit long, represented by 12 hexadecimal characters, and coded into the network interface upon manufacture
 * Example MAC address: 00:AA:19:9A:58:B4
 
-![](../../.gitbook/assets/mac.jpg)
+<figure><img src="../../.gitbook/assets/mac.jpg" alt=""><figcaption></figcaption></figure>
 
 OUI (Organizationally Unique Identifier) - allocated to a particular vendor or manufacturer by the IEEE (Institute of Electrical and Electronics Engineers)
 
@@ -177,7 +177,7 @@ Only main difference here is the amount of power that is going to be required fo
 
 **Looping example:**
 
-![](../../.gitbook/assets/looping.jpg)
+<figure><img src="../../.gitbook/assets/looping.jpg" alt=""><figcaption></figcaption></figure>
 
 **Advantages**
 
@@ -212,7 +212,7 @@ STP is being replaced through different architectures in data centers and the us
 
 **CSMA/CD Process**
 
-![](../../.gitbook/assets/csmad.jpg)
+<figure><img src="../../.gitbook/assets/csmad.jpg" alt=""><figcaption></figcaption></figure>
 
 **Protocols**
 
@@ -352,21 +352,101 @@ In February of 1980 => 802
 
 ## Common Wi-Fi Channels
 
+### WiFi Channels
 
+* 2.4 GHz = 11 WiFi channels
+* 5 GHz = 45 WiFi channels
 
+### Channel Designations
 
+#### WiFi Channels
+
+* USA = channels 1-11
+* Europe = channels 1-13
+* Japan = 1-14
+
+<figure><img src="../../.gitbook/assets/wifi (1).jpg" alt=""><figcaption></figcaption></figure>
+
+* Each channel spans a range of 22 MHz on the entire spectrum
+
+#### Channel Width
+
+Channel width affects these values:
+
+* Speed
+* Volume of data
+
+#### Channel Configuration
+
+* Automatic
+* Manual
 
 ## Wireless Channel Bonding
 
+### Channel Bonding
 
+* Common in IEEE 802.11
+* Used to combine different channels
+* Increases throughput
 
+<figure><img src="../../.gitbook/assets/channel.jpg" alt=""><figcaption></figcaption></figure>
 
+#### Channel Bonding Popularity
 
-## Service Set Identifier
+* Introduced with 802.11n
+* Provides additional functionality and increased throughput
 
+#### 2.4 GHz Frequency Band
 
+**3 non-overlapping channels**
 
+* Total width of approximately 70 MHz (channels 1 through 11)
+* Only a single bounded pair of 40 MHz can be configured (channels 1 and 6)
+* Only a single non-overlapping channels would remain (channel 11)
 
+#### 5 GHz Frequency Band
+
+**25 non-overlapping channels**
+
+* Total width of over 500 MHz
+* Many more bonded pairs can be configures
+  * Up to 160 MHz in 802.11 ac
+  * Very high throughput
+
+## Service Set Identifier (SSID)
+
+* Used to uniquely name a wireless local area network (WLAN)
+
+#### Basic Service Set (BSS)
+
+* Used to form one logical WLAN segment
+
+#### Extended Service Set (ESS)
+
+* One or more interconnected Basic Service Sets (BSS)
+  * One Access Point
+  * One Station
+
+#### WiFi Roaming
+
+<figure><img src="../../.gitbook/assets/wifi_2.jpg" alt=""><figcaption></figcaption></figure>
+
+#### Independent Basic Service Set (Ad Hoc)
+
+* Simplest IEEE 802.11 network
+
+#### Difference between Infrastructure mode and Ad Hoc mode:
+
+**Infrastructure mode:**
+
+* Much more common
+* Wireless router that provides connectivity to all devices and also provides you access to the Internet
+* All of the devices, when communicating go through that wireless router
+
+**Ad-Hoc mode:**
+
+* Allows do both
+* Devices can go through the central router, but they are also allowed to set up direct connections with each other
 
 ## Wireless Antenna Types
 
