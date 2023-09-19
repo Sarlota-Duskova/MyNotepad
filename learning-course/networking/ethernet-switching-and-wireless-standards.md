@@ -450,41 +450,291 @@ Channel width affects these values:
 
 ## Wireless Antenna Types
 
+#### Antennas
 
+* Used to transmit or receive radio
+* Converts electric power into radio waves
+* Can be tiny in size to very large structures
 
-## Wireless Encryption Solutions
+#### Omni-directional Antennas
 
+* Transmit and receive with equal efficiency in all directions
+* Signals emanate in a sphere
+* Examples include radio transmission towers, cell phone antennas, Wi-Fi routers
 
+**Advantages:**
+
+* Easy to install
+* Mounted virtually anywhere and in any direction
+
+**Disadvantages**
+
+* Typically have a shorter range due to the signal being spread so broadly
+* Inefficient
+
+#### Directional Antennas
+
+* Designed to have a narrow directional signal
+  * By design, these types of antennas work more effectively in some directions compared to others
+
+**Advantages:**
+
+* Improved transmission
+* Improved reception of communications
+* Reduced interference
+
+**Disadvantages:**
+
+* Decreased effective beam width
+
+#### Directional Antenna Types
+
+* Semi-directional - represent half of the circle
+* Bi-directional - 45 degree front and also behind me
+
+#### Yagi-Uda Antennas
+
+* Arrangemenets of perpendicular and parallel elements
+* Highly directional antenna
+* Used for fixed point-to-point systems
+
+#### Parabolic Dish Antennas
+
+* Use a parabola to focus incoming signals to a point
+* Common in satellite communications and other long-range, directional applications
+
+## Wireless Encryption Solutions (WEP)
+
+* Older encryption algorithm
+* Secures data across a wireless network
+* WEP key
+  * Sequence of hexadecimal characters
+  * Characters must match on all devices communicating on a wireless network
+
+**Advantages:**
+
+* Interoperability
+* Useful when connecting older devices
+
+**Disadvantages:**
+
+* Can be cracked
+* Changing the key can be tedious
+
+#### Wi-Fi Protected Access (WPA)
+
+* Developed by Wi-Fi Alliance
+  * Designed to replace WEP
+  * Adopted in 2003
+* Stronger encryption
+* Data integrity
+  * Verify data has not been tampered with or altered
+
+**Advantages:**
+
+* Stronger encryption than WEP
+* Uses Temporal Key Integrity Protocol (TKIP)
+* Dynamic key changes if necessary
+
+**Disadvantages:**
+
+* Proven to be incompatible with some legacy hardware or older operating systems
+
+#### Wi-Fi Protected Access II (WPA2)
+
+* Provides stronger data protection
+* Provides network access control
+* Ensures only authorized users can access a wireless network
+* Provides government grade security
+  * AES encryption algorithm
+  * 802.1 x-based authentication
+* Editions
+  * WPA2-Personal
+    * Requires a password
+  * WPA2-Enterprise
+    * Verifes users through a server
+
+**WPA2 Benefits**
+
+* Compatibility
+  * However, older equipment may not support it
+* Security
+  * More advanced encryption
+* TKIP for interoperability with WPA
+* Very difficult to crack without network access
+
+#### Temporal Key Integrity Protocol (TKIP)
+
+* Encryption protocol used for wireless LANs
+* Improves upon WEP
+  * Original WLAN security protocol
+* Provides more secure encryption
+  * Encryption method in WPA
+
+#### TKIP-RC4
+
+* Suite of algorithms that allows legacy WLAN equipment to upgrade to TKIP
+  * Without replacing any hardware
+* Uses WEP programming
+  * Additional code is "wrapped" at both the beginning and end to modify and encapsulate it
+* RC4 stream encryption is used as its basis
+* Data packets are encrypted with a unique encryption key
+* TKIP uses four algorithms to increase key strength
+
+#### TKIP-RCE4/AES-CCMP
+
+* Does not address all security issues for WLANs
+  * May not be efficient enough for certain data transmissions
+    * Government
+    * Sensitive corporate
+* AES-CCMP
+  * Higher level of security
+    * Approved for government use
+    * May require hardware upgrades
 
 ## Common Cellular Technologies
 
+#### GSM
 
+* Global System for Mobile communication (GSM)
+* Digital mobile telephony system
+* Represents over 90% of all global mobile connections
+* Operates at one of two frequencies:
+  * 900 MHz
+  * 1800 MHz
+* Digitizes and compresses data prior to sending down a channel
 
+#### TDMA
 
+* Time Division Multiple Access (TDMA)
+* Facilitates multiple users sharing the same media
+* Cellular channels are divided into three time slots
+* Used by
+  * Global System for Mobile Communications (GSM)
+  * Digital-Advanced Mobile Phone Service (D-AMPS)
+  * Personal Digital Cellular (PDC)
+
+#### CDMA
+
+* Code Division Multiple Access (CDMA)
+* Used in second-generation (2G) and third-generation (3G) wireless communications
+* Form of multiplexing
+* Allows numerous signals on a single transmission channel
+* Commonly used 800 MHz and 1.9 GHz
+
+#### LTE (4G)
+
+* Long-term Evolution
+* Uses Orthogonal frequency-division multiple access (OFDMA)
+* Uses frequency ranges to create separate channels
+
+#### 5G
+
+* Still being developed
+* Gbps speeds
+* Lower latency (near real-time)
+* Perform remote operations
+* Specific device support
 
 ## MU-MIMO Technology
 
+* Multiple input, multiple output (MIMO)
+* Antenna technology for wireless communications
+* Sends multiple signals at once and uses an array of antennas
+* Antennas at each end of the circuit are combined to help
+  * Minimize errors
+  * Optimize data speed
+* Support
+  * 802.11 n
+  * 802.11 ac
+* Single-session
+  * Supports multiple devices in separate sessions
+    * Each device must take turns
 
+#### MU-MIMO
 
-
+* Multi-user multiple input multiple-output (MU-MIMO)
+* Enhanced form of MIMO technology
+* Simultaneous communication with multiple devices
+* Significant performance enhancement
+* Devices no longer have to wait for their turn
+* 802.11 ac wireless specification
+* Increased theoretical maximum wireless speeds ranging from 3.47 Gbps to 6.93 Gbps
 
 ## Test
 
+A voice VLAN is typically implemented for which purpose?
 
+* To give voice packets a higher priority than data packets
 
+Which encryption standard can provide managed access through a centralized server?
 
+* WPA2
 
+Which protocol or port configuration option on a switch is typically used for monitoring and diagnostic purposes?
 
+* Port mirroring
 
+Which benefits did the 2.4 GHz frequency offer over 5 GHz?
 
+* Better penetration of obstacles
+* Better coverage
 
+Which scenario would most accurately reflect the nature of MU-MIMO in wireless communications?
 
+* Many people on a conference call
 
+Power over Ethernet plus (PoE+) is capable of handling what level of power?
 
+* 30 watts
 
+In the event of a collision on an ethernet network, CSMA/CD specifies that which process or procedure take place?
 
+* Transmitting and receiving devices should retransmit at random intervals
 
+In the 2.4 GHz frequency band, how many bonded pairs could be configured within the entire range?
 
+* 1
 
+Which type of multiple access method is used by LTE (4G)?
 
+* OFDMA
 
+In the 2.4 GHz frequency band, which channels would not overlap with each other?
+
+* 1 and 6
+* 6 and 11
+
+The spanning tree protocol addresses which potential issue in a networking environment?
+
+* Switching or bridging loops
+
+VLANs are created and configured in which manner?
+
+* By configuring switch port interfaces
+
+What is the primary characteristic of 802.11 communications that determines if one variety is compatible with another?
+
+* Frequency
+
+Which type of antenna could be envisioned as producing a “slice” of coverage in front of you, and a slice of coverage behind you?
+
+* Bi-directional
+
+The SSID of a wireless network would be best described in which manner?
+
+* The collection of all devices connected to all access points
+
+Which type of resolution or mapping is performed by the Address Resolution Protocol?
+
+* IPv4 addresses to MAC addresses
+
+Which statements accurately describe the nature of a MAC address?
+
+* They operate at the Data-link layer of the OSI model
+* They never change
+* They are written into the code of the interface
+
+The Neighbor Discovery Protocol would be most accurately described in which manner?
+
+* It is the IPv6 equivalent of the Address Resolution Protocol
