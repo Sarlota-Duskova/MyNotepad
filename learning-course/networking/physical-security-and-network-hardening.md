@@ -629,21 +629,78 @@ PSTN (Public Switched Telephone Network) - is redundantly available
 ### Key Terms
 
 * Frames per second (FPS)
-*
+* Resolution
+* Lighting levels
+* Compression
+* Digital video recorder (DVR)
 
+### Motion Detection
 
+* Capability of a surveillance system to capture events at the point motion is detected by the system
+* Uses a software-based monitoring algorithm to detect motion
 
+### Advanced Motion Detection
 
-
-
+* Once activity is detected, the surveillance system determines if an alarm should be initiated
 
 ## Asset Tracking and Disposal
 
+### Asset Inventory Records
 
+* IT asset records for hardware and software are crucial to a successful security and risk management strategy
 
+### Inventory Record Details
 
+* Unique asset identifier
+* Qualitative and/or quantitative value
+* Location identify
+* Security classification or sensitivity level
+* Asset group (if applicable)
+* Custodian
+* Recovery priority
 
+### Organizational Information
 
+* Operating systems
+* Software applications
+* Mobile device operating systems and apps
+* Cloud applications
+* Virtualization
+
+### Inventory
+
+* Manual or automated
+* Must be centralized
+
+### Software Asset Management
+
+* Licensing
+  * Instances
+  * Audits
+  * Overages
+    * Track usage
+  * Software piracy
+  * Virtualization
+    * Unique licensing conditions
+  * Mobile device applications
+
+### Hardware Asset Management
+
+* Mobile devices
+* Desktop computers
+* Laptops
+* Servers
+* Routers/switches
+* Security appliances
+* Other hardware as deemed necessary by an organization to manage
+  * Disk storage arrays, backup devices
+* Disposal
+  * Donated or sold
+  * Data wiping
+* Environmental
+  * Recycling
+  * Physical disposal
+    * Hazardous materials
 
 ## Tamper Detection
 
