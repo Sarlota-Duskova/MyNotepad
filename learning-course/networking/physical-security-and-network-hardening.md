@@ -704,11 +704,109 @@ PSTN (Public Switched Telephone Network) - is redundantly available
 
 ## Tamper Detection
 
+* Setting on surveillance system that alerts you if a camera is tampered with
+* Built-in mechanism that detects and alerts if its ability to function is impaired
+* Log in to video management system to investigate what is affecting the system
+  * Sabotage vs failure
 
+### Blockage
 
+* Limited or no visibility
+  * Intentional
+    * Bag
+    * Hand
+    * Baseball hat
+  * Unintentional
+    * Fallen tree
+    * Object blowing in the wind
 
+### Redirecting
+
+* Act of redirecting a camera so the events are unable to be captured
+* Often performed during an act of mischief
+
+### Defocusing
+
+* Act that would cause a security camera to go out of focus
+  * Lens
+  * Beam
+
+### Spray-painting
+
+* Act of deliberately covering the camera so the recording cannot be viewed later
+  * Common in mischief
+    * Graffiti
+    * Hate crimes
 
 ## Prevention Techniques
+
+### Control Types
+
+* Administrative
+* Technical
+* Operational
+
+### Identity Cards
+
+* Badge or card that can provide access to
+  * Buildings
+  * Parking lots
+  * Server rooms
+* Records information such as
+  * Name
+  * Access time and duration
+
+### Biometrics
+
+* Biometrics are physical measures used to identify a person
+  * Fingerprints
+  * Retina patterns
+  * Facial recognition
+* Commonly used in multifactor authentication
+
+### Smart Cards
+
+* Physical access control device
+  * Electronic locks
+  * Authorized access to secure areas
+* Also know as integrated circuit card (ICC)
+* Cards are either contact or contactless
+
+### Keypads
+
+* Keypads requiring a PIN are a common door-control mechanism
+* May not be as secure as smart cards
+
+### Key Fobs and Proximity Readers
+
+* Door security can be managed by
+  * Key fob
+  * Proximity detectors
+* Fobs may be more programmable and provide more data for tracking user movement
+
+### Locks
+
+* Padlocks
+* Electronic locks
+* Laptop or equipment locks
+
+### Social Engineering
+
+* Attacks based on exploiting human trust that circumvent nearly all other security mechanisms
+* An untrusted individual convinces others to reveal information or perform actions
+  * Tricking someone into helping them gain physical access
+  * Spread malware
+  * Phishing communications
+
+
+
+
+
+
+
+
+
+
 
 
 
