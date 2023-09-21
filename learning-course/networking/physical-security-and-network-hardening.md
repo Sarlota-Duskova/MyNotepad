@@ -798,18 +798,84 @@ PSTN (Public Switched Telephone Network) - is redundantly available
   * Spread malware
   * Phishing communications
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Test
+
+Which feature of a security camera refers to its ability to store data locally?
+
+* Digital video recorder (DVR)
+
+In addition to performing remote administration tasks, VNC can be useful for which other purpose in a networking environment?
+
+* Training
+
+Which statement correctly describes a situation where the Secure Shell protocol should be used?
+
+* When establishing a remote session to a Unix server
+
+Which statement correctly describes the level of security provided by passwords in a networking environment
+
+* They are a primary security vulnerability
+
+Which type of wireless security configuration allows you to create two separate networks on the same access point?
+
+* Guest network
+
+Out-of-band management refers to which process?
+
+* Implementing redundancy to allow for continued network management in the event of a failure
+
+Which type of firewall action would be used if you only wanted to assess the type of traffic on your network?
+
+* Log only
+
+In which type of security system would you be most likely to encounter the use of smart cards?
+
+* Door-locking systems
+
+Shining a laser or a bright flashlight directly into a security camera would be classified as which type of interference?
+
+* Defocusing
+
+Which feature of the Windows Firewall can also implement encryption using IPSec?
+
+* Connection security rules
+
+Which encryption algorithm is used by default with the WPA2 protocol?
+
+* AES
+
+Which type of wireless transmission would not be able to support an implementation of geofencing?
+
+* Bluetooth
+
+Which value of an asset tag or inventory record indicates how urgently a device should be replaced?
+
+* Recovery priority
+
+Which wireless authentication method implements two-way or mutual authentication between client and access point?
+
+* EAP-TLS
+
+Which remote authentication and authorization protocol is not considered to be secure due to its use of clear-text passwords?
+
+* PAP
+
+Which type of VPN configuration would be more suitable for a connection between two offices that will be used frequently by multiple users?
+
+* Site-to-site
+
+Which encryption algorithm could be used to configure WPA in a mode that is compatible with WEP?
+
+* TKIP-RC4
+
+Which statement correctly describes a situation where the Remote Desktop Protocol should be used?
+
+* When administering a Windows server from a client computer
+
+Network hardening features such as Router Advertisement Guard and DHCP Snooping are implemented where?
+
+* Switches
+
+Which statement correctly characterizes why an IoT implementation poses more of a security threat to an environment?
+
+* There are far more devices, therefore far more points of attack
