@@ -148,11 +148,26 @@
 
 ## Damaged Cables and Bent Pins
 
+* Complete service disruptions
+* Slow or intermittent performance
+* On and off connectivity
 
+### Diagnosing Damaged Cables
+
+* Look for visual damage
+* Check connectivity
+* Check cable function
+
+### Bent Pins
+
+* Improper seat
+* Connectivity issues
+* Performance issues
 
 ## LED Status Indicators
 
-
+* Network interface cards
+* Adapter provides troubleshooting method
 
 ## Common Cable Tools
 
