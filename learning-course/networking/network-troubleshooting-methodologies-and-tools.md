@@ -80,7 +80,45 @@
 
 ## Troubleshooting Crosstalk and EMI
 
+### Jitter
 
+* Deviation in a signal pulse
+* Network congestion
+* Timing drift
+* Route changes
+* Sequence order
+
+### Measuring Crosstalk
+
+* NEXT (Near-End CrossTalk)
+* FEXT (Far-End CrossTalk)
+
+#### Crosstalk Symptoms
+
+* Error and noise
+* Packet loss
+
+#### Preventing Crosstalk
+
+* Shielded cable
+* Physical separation
+
+### Understanding Electromagnetic Interference
+
+* Caused by electromagnetic disturbance
+* Can affect overall performance of any type of device or data transmission
+* Radio frequency interference
+
+#### Symptoms of EMI
+
+* Direct physical contact
+* Too close to electromagnetic field
+
+#### Resolving EMI
+
+* Distance
+* Shielded cables
+* Filters
 
 ## Trobleshooting Opens and Shorts
 
@@ -88,11 +126,25 @@
 
 ## Duplex and Transceiver Mismatches
 
+### Auto Negotiation
 
+* Eliminates need to manually configure settings
+
+### Recognizing Duplex Issues
+
+* Late collision error
+
+### Mitigating Duplex Errors
+
+* Configure manually
+* Use MAU
 
 ## Bad Ports, Bottlenecks, and VLAN Mismatches
 
+### Avoiding VLAN Mismatches
 
+* Configure trunking switches to same native VLAN
+* Monitor for problems
 
 ## Damaged Cables and Bent Pins
 
