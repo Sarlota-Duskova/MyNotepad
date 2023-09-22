@@ -54,6 +54,58 @@
 
 
 
+## Security Assessment Exercises
+
+
+
+## Security Information and Event Management
+
+
+
+## Common Technology-based Attacks
+
+
+
+
+
+## Ransomware Attacks
+
+
+
+## Common Malware Attacks
+
+
+
+## On-path Attacks
+
+
+
+
+
+## Common Password Security Attacks
+
+
+
+
+
+## Denial of Service Attacks
+
+
+
+
+
+## Social Engineering Attacks
+
+
+
+## Test
+
+
+
+
+
+
+
 
 
 
