@@ -62,7 +62,9 @@
 
 #### Rollover
 
-*
+* Reverse pin order of each wire
+* Used for RS-232 connectors
+* Dated
 
 ### Power over Ethernet (POE)
 
