@@ -305,21 +305,146 @@ Recall that arp resolves an IP address to a MAC address
 
 ## Wireless Connectivity Considerations
 
+#### Incorrect Antenna Type
 
+* Varios Wi-Fi antennas
+  * Each designed for a specific purpose
+* Directional antennas
+  * Designed to focus on certain areas of coverage
+* Omnidirectional antennas
+  * Designed for 360-degree coverage
 
+#### Incorrect Antenna Aiming
 
+* Common on legacy access points
+  * Diversity antennas
+* If improperly aligned, it could be detrimental to performance
+* Hidden node
+  * Occurs when two clients in opposite directions connect to same access point, but cannot detect each other
+
+#### Channel Utilization
+
+* If utilization is too high, consider another non-overlapping channel
+
+#### Antenna Polarization
+
+* Frequency
+* Coverage
+* Physical constraints
+
+#### Association
+
+* AP/routers perform association to record each mobile device
+
+#### Wireless Site Survey
+
+* Performed prior to deployment or when troubleshooting
 
 ## Common Wireless Connectivity Issues
 
+#### Wi-Fi Interference
 
+* Other Wi-Fi networks in the same range
+  * Neighbor's Wi-Fi network
+  * Another company Wi-Fi in the same shared building
+* Consider using dual-band routers
+  * Operate simultaneously
+    * 2.4 GHz
+    * 5 GHz
 
+#### Channel Assignments
 
+* Incorrect channel assignments
+  * Less common with modern devices
+    * Auto-detect channel configuration
+* If using the 2.4 GHz frequency band
+  * Non-overlapping channels
+    * Channel 1, 6 and 11
+
+#### Wi-Fi Capacity
+
+* Sharing bandwidth
+* 802.11g - 54 Mbps
+* 802.11n and 802.11ac - 450 Mbps to 1.3 Gbps
+* Lower-end devices
+  * May experience other limitations such as RAM and CPU
+* Other features use resources on the AP/router
+  * MAC filtering
+  * Port forwarding
+  * Firewall
+
+#### Service Set Identifier (SSID) Issues
+
+* Network name
+* Configurable
+  * Must match on client and AP
+* Misconfigured SSIDs
+  * Clients will be unable to connect
+  * May connect to wrong network altogether
+
+#### Incorrect Passphrases
+
+**Wired Equivalent Privacy (WEP)**
+
+* Passphrase
+  * 40-64 bit encryption
+    * 10 hex or 5 ASCII characters
+  * 104/128-bit encryption
+    * 26 hex or 13 ASCII characters
+
+**WPA/WPA2 Personal**
+
+* Preshared Key
+  * 8-63 characters
+
+#### Wireless Connectivity Issues
+
+* Signal loss
+* Encryption protocol mismatch
+* Coverage issues
+* Client disassociation issues
+* Captive portal issues
 
 ## Wired Network Considerations
 
+#### Crosstalk
 
+* Crosstalk occurs when signals from one wire interfere with signals on another
+  * Wires that are exposed or in very close proximity
 
+#### Duplex Mismatch
 
+* Half duplex
+* Full duplex
+
+#### Incorrect VLAN Assignment
+
+* 802.1Q trunk
+  * Traffic is tagged with the VLAN ID except for the native VLAN
+* Untagged traffic will be assigned the wrong VLAN if two switches connected to the trunk have different native VLANs configured
+* All trunking switches should be configured for the same native VLAN
+
+#### Bad Ports
+
+* Bad ports on a switch can cause unexpected traffic drops and performance issues
+  * If a port is identified as faulty, consider labeling it
+    * Prevent any future confusion
+
+#### Interface Configuration Problems
+
+* Poor throughput (e.g. inconsistent)
+* No connectivity
+
+#### Bottlenecks
+
+* I/O bus
+* CPU/ memory
+* Network adapter speed
+* Storage
+
+#### Routing Tables
+
+* Determine route data is to be sent
 
 ## Default Gateway Issues
 
