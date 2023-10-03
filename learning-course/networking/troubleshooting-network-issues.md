@@ -833,5 +833,82 @@ Recall that arp resolves an IP address to a MAC address
 
 **Which statement most accurately characterizes the likelihood of a MAC address conflict in a network?**
 
-*
+* They are very rare
 
+**When troubleshooting the configuration of a firewall, which values would you expect to see configured for any entries in the Access Control List?**
+
+* Interface on which a rule is placed
+* Source and destination IP addresses
+* Zone
+
+**Which Linux utility would be the best option to use to help troubleshoot issues with the DNS service?**
+
+* dig
+
+**If the DHCP scope being used for guest access in the lobby of a hotel is continually running out of IP addresses, what is the most likely cause?**
+
+* The lease duration is too long
+
+**Effective Isotropic Radiated Power refers to which characteristic of wireless transmission?**
+
+* The strength of a transmission emanating from the antenna
+
+**Which values would indicate that your netmask has been entered or calculated correctly?**
+
+* 255.255.255.0
+* 255.255.0.0
+* 255.0.0.0
+
+**Which implementation can be configured on your switches to prevent the implementation of a rogue DHCP server?**
+
+* DHCP snooping
+
+**If the certificate on a server seems to be intact, but the server that issued the certificate in the first place cannot be verified, how would this error be classified?**
+
+* Missing chain certificate
+
+**If you discover that a service has become unresponsive, and its state is set to automatic, by which methods could the service be reset?**
+
+* Reboot the server
+* Restart the service
+
+**If your IP address configuration does not include a value for the default gateway, but your address and netmask are correct, which connectivity scenarios will occur?**
+
+* You will only be able to connect to systems in the same network
+* You will not be able to connect to the internet
+
+**Which utility is most effective at diagnosing issues with the DNS service?**
+
+* Nslookup
+
+**Your wireless network has grown significantly and all devices have been upgraded to their newest models. Previous tests have revealed that your primary issues with connectivity are slow speeds, high interference, and the use of overlapping channels. Which solution might best address all of these concerns?**
+
+* Switch from the 2.4 GHz band to the 5 GHz band
+
+**If you plug an ethernet cable into the network adapter of your computer and the LED status light does not activate, what is the most likely cause?**
+
+* Damaged cable
+
+**A Wi-Fi analyzer would not be effective in determining which characteristic of a wireless network implementation?**
+
+* The security settings to use
+
+**Which port scanning technique attempts to fool a target system into believing communications have been occurring by sending an indication that the conversation has ended?**
+
+* FIN scan
+
+**Which utility would be the best option to help determine which IP address is currently mapped to any given MAC address?**
+
+* ARP
+
+**In a wireless network, which factor would likely have the most noticeable effect on the available bandwidth of a connection?**
+
+* Distance
+
+**Installing an antenna in a vertical or upright position as opposed to a horizontal position is an implementation of which characteristic of wireless transmissions?**
+
+* Polarization
+
+**A scenario whereby packets are leaving your network through one route, indicates which type of issue?**
+
+* Asymmetric routing
