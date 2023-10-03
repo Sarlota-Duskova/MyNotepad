@@ -9,7 +9,7 @@
 * The server will then respond with a packet containing the SYN bit, as well as another "acknowledgement" bit, called ACK.
 * Finally, your computer will send a packet that contains the ACK bit by itself, confirming that the connection has been setup successfully.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 * The first thing that your computer does is check its local cache to see if it's already got an IP address stored for the website.
 * Assuming the address hasn't already been found, your computer will then send a request to what's known as a recursive DNS server.
