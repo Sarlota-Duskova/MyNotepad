@@ -448,65 +448,390 @@ Recall that arp resolves an IP address to a MAC address
 
 ## Default Gateway Issues
 
+* Connect to external network
+* Means to leave your own network
+* PC with dual adapters
+* One interface on each network
+* External network
+* Default - no other gateway specified
 
+#### Unreachable Default Gateway
 
-
+* Isolate the problem
+* Host - check IP and cables
+* Subnet - could be router
 
 ## Incorrect Netmask Issues
 
+* 32-bit value
+* Network ID
+* Host ID
 
+#### Netmask
 
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+#### Troubleshooting Netmask
+
+* Check devices
+* Documentation
+* Confirm subnet mask
+* Match configuration
+
+#### Troubleshooting Netmask - Tools
+
+* Ipconfig
+* Ping
 
 ## Duplicate IP or MAC Addresses
 
+* Same IP assigned to two devices
+* Disabled
+* Lose connectivity
+* Same address assigned - when using static IP address
+* Statically assigned
+* DHCP configuration - setting up range that has been already assigned to some device
+* Returning online
 
+#### Static IP Addresses
 
+* Multiple network administrators
+* Static IPs don't change
+* Additional administrative overhead
 
+#### Troubleshooting Duplicate IP Addresses
+
+* Review documentation
+* Ping the address
+* Refer to MAC address table
+* Packet capturing
+
+#### MAC Addresses
+
+* Hardware address
+* 12 hexadecimal characters
+* Manufacturer-assigned
+* Globaly unique
+
+#### Duplicate MAC Addresses
+
+* Uncommon occurrence
+* Vendor-assigned address not used
+* Locally administered MAC address
+
+#### ARP Utility
+
+* Discover MAC addresses
+* ARP cache
+* Troubleshoot problems
+* Duplicate IP and MAC
 
 ## Resolving Common DNS Issues
 
+#### Troubleshooting DNS
 
+* Domain or host name to IP
+* Browsing and e-mail
 
+#### DNS Issues
 
+* Inability to connect
+* Browsers report no internet access
+* nslookup for internal DNS issues
 
+#### Alternate DNS
 
+* Primary and secondary DNS servers
+* Secondary server acts as a stand-by
+
+#### Troubleshooting DNS
+
+* DNS server online?
+* Ping DNS server
+* Single user?
+* Entire subnet?
+
+#### Malware/Attacks
+
+* DNS poisoning
+* Other malware
 
 ## Expired DHCP Scopes and Rogue DHCP Servers
 
+#### DHCP Scope
 
+* Range of addresses
+* Leased to clients
+* Complete IP configuration
+* Other servers
 
+#### DHCP Scope Properties
 
+* Reservations
+* Exclusion ranges
+* Lease duration
+* Scope name
+* Description
+
+#### Common Scope Issues
+
+* DHCP scope not activated
+* Lease duration
+* Limited scope
+* DHCP service stopped
+* Client-side misconfiguration
+
+#### Rogue DHCP Server
+
+* Unauthorized DHCP server
+* Used to redirect clients
+* Clients cannot distinguish the rogue server from a legitimate time
+
+#### Detecting Rogue DHCP Servers
+
+* DHCPLOC utility
+* ipconfig/all
+
+#### Mitigating Rogue DHCP Servers
+
+* DHCP snooping
+* Intrusion Detection System (IDS)
+* Network Monitor
+* Active Directory authorizes DHCP servers
 
 ## Expired IP Addresses and Incorrect System Times
 
+#### DHCP Lease Time
 
+* Laptops
+* Desktops
+* Smartphones
+* Servers
+* Tablets
 
+#### Optimum DHCP Lease Time - Home Network
 
+* More addresses than devices
+* Longer lease period
+
+#### Optimum DHCP Lease Time - Public Place
+
+* Many guests
+* Shorter lease period
+
+#### Expired IP Addresses
+
+* Address configuration discarded
+* Interfere with devices and services
+* IP address conflicts
+
+#### Incorrect System Times
+
+* Computer clocks can be inaccurate
+* Devices can be manually configured
+
+#### Time Synchronization Is Critical
+
+* Logging
+* Managing
+* Securing
+* Planning
+* Debugging
+
+#### Incorrect Time and Network Issues
+
+* Cannot join domain
+* Synchronization issues
+
+#### Network Time Protocol
+
+* Synchronize devices
+* Universal time servers
 
 ## SSL Certificates and Blocked Ports
 
+#### SSL Certificates
 
+* Standard security protocol
+* Protects information in transit
+* Encryption between bew servers and browsers
 
+#### Common SSL Problems
 
+* Server Name Indication (SNI)
+* Missing certificates
+* Validity issues
+* Client certificates
+
+#### Troubleshooting SSL Issues
+
+* SSL Labs
+* Wireshark
+* OpenSSL
+
+#### Common SSL Problems
+
+* TLS
+* Supported protocols
+
+#### Errors - Certificate Failure
+
+* Missing chain certificates
+* Certificate no longer valid
+* Verification failed
+* Invalid system time
+
+#### Errors
+
+* No shared ciphers
+* Unknown protocol (TLS)
+
+#### Blocked Ports
+
+* Endopoints of communication
+* Depends on service
+* TCP/UDP
+
+#### Blocked Ports - Port Scanners
+
+* Single port
+* Range of ports
+* Vulnerable ports
 
 ## Incorrect Firewall and ACL Settings
 
+#### Firewall Issues
 
+* Misconfiguration
+* Lost connectivity
 
+#### Firewall Configuration Issues
 
+* Check network configuration and cabling
+* Verify logging
+* Verify firewall rules
+* Network Address Translation (NAT)
+* Before or after security rules
+* Check with documentation
+
+#### ACLs - Source and Destination Traffic
+
+* IP addresses
+* Zone
+* Interface
+
+#### ACL Misconfiguration
+
+* Prevent legitimate access
+* Fail to block unauthorized access
+* Audit to align configuration and policy
 
 ## Hardware Failures and Unresponsive Services
 
+#### Hardware Failure
 
+* Straightforward troubleshooting
+* No changes suggest hardware
+* Firmware
 
+#### Diagnosing Switches
 
+* Ping switch
+* Physically access
+* Connectivity
+* Status lights
+
+#### Windows Services
+
+* Automatic
+* Automatic (delayed)
+* Manual
+* Disabled
+
+#### Examples of Windoes Services
+
+* Active Directory Service
+* Background Intelligent Transfer Service
+* DNS Server/client service
+* DHCP Server/client service
+* Server service
+* Remote Desktop Services
+
+#### Configuring Windows Services
+
+* Services console
+* PowerShell/Command prompt
+
+#### Troubleshooting Unresponsive Services
+
+* Event Viewer
+* Windows Logs > Application
+* Windows Logs > System
 
 ## Common Wired Connectivity Issues
 
+#### Broadcast Storms
 
+* Capture packets to identify the source of the problem
 
+#### Asymmetric Routing Problems
 
+* Can occur when a network has multiple paths to the Internet
+
+#### Routing Loop
+
+* Can result in serious network problems
+* Can occur when data packets are routed through the same routers repeatedly
+* Creates an endless circle
+
+#### DHCP Scope Exhaustion
+
+* DHCP IP address pool starts to run out
+
+#### Missing Routes
+
+* Can result in a 'Destination host unreachable' error
+
+#### Optical Link Budget
+
+**Fiber optics**
+
+* Allocation of available optical power
+* Considerations
+  * Transceiver power
+  * Fiber loss
+  * Connector loss
+  * Patch panel loss
+
+#### Certificate Errors
+
+* E.g. SSL certificate errors
+
+#### Incorrect VLANs
+
+* Typically occurs when users are
+  * Moved
+  * Configured with new adapters
+* Document VLAN arrangement can help prevent issues
+
+#### BYOD Challenges
+
+* Organizations must exert some form of control over devices
 
 ## Test
+
+**Which utility would be the best option to use when trying to determine the maximum bandwidth specifications of applications using either the TCP or the UDP transport protocol?**
+
+* iperf
+
+**A packet sniffer might be used in which situations?**
+
+* Identify if weak passwords are being used
+* Classifying traffic
+
+**Which statement most accurately characterizes the likelihood of a MAC address conflict in a network?**
+
+*
 

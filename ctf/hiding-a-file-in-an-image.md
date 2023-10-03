@@ -39,7 +39,7 @@ That means a PNG file will always end with these bytes:
 
 `pngcheck` check info about png
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Steghide
 
