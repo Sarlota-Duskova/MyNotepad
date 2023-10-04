@@ -133,7 +133,7 @@
 
 ### Codes
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Common Network Interface Statistics
 
@@ -212,7 +212,7 @@
 
 ### Hot and Cold Aisles
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Humidity
 
@@ -343,25 +343,192 @@
 
 ## Organizational Planning and Procedures
 
+### Change Management
 
+E.g. software upgrades
+
+### Incident Response Plan
+
+* Roles
+* Responsibilities
+
+### Incident Response
+
+* The International Standards Organization (ISO) defines that an Incident Response plan should involve six key phases.
+  * Preparation
+  * Detection
+  * Containment
+  * Investigation
+  * Remediation
+  * Recovery
+
+### Planning for Failure
+
+* Disaster recovery
+* Business continuity
+
+### Key Components of a DR/BC Plan
+
+* Employee training
+* Crisis communication planning
+* Continuity exercises
+* Testing and evaluation
+* Stakeholder involvement
+
+### Business Impact Analysis (BIA)
+
+* Identify crucial processes and systems
+
+### System Development Life Cycle (SDLC)
+
+* Used to define policy, organizational, personnel, and budgeting constraints
+
+### SDLC Phases
+
+## ![](../../.gitbook/assets/image.png)
 
 
 
 ## Network Security Policies
 
+### Password Policy
 
+* Establish a standard for creating and enforcing the use of strong passwords
+* Poorly chosen passwords may result in unauthorized access of a system or network resources
 
+### Acceptable Use Policy (AUP)
 
+* Document that outlines expectations for users to use Internet or corporate network services
+* Defines acceptable use and breaches of acceptable use
+
+### Bring Your Own Device (BYOD)
+
+* Laptops
+* Smartphones
+* Tablets
+
+### Onboarding
+
+#### Process
+
+* Job/responsibility
+* Organizational culture
+
+#### Goals
+
+* To engage and connect immediately with new hires
+* Reduce turnover
+* Increase productivity and success
+
+### Offboarding
+
+* Strategic process for transitioning or removing an employee from an organization
+* Checklist can be developed to ensure general tasks are completed prior to the employee leaving
+* Offboarding can help ensure that an employee departs the organization on good terms
+
+### IT Security Policy
+
+* Rules
+* Procedures
+
+### Data Loss Prevention (DLP)
+
+* Controls how valuable data is used
+  * Intellectual property
+  * Confidential corporate data
+  * Personally identifiable information
+* Prevents data leakage
+  * Data disclosure outside of the organization
+
+### Remote Access
+
+* Technology that controls how users can remotely connect to an organization's local area network
+* Remote access policies
+  * Outline acceptable methods for allowing remote connections to the LAN
 
 ## Common Network Operations Documentation
 
+### Physical Network Diagram
 
+* Location
+* Wired
+* Wireless
+* Infrastructure devices
+* Physical security
+
+### Logical Network Design
+
+* VLANs
+* Virtual network switches
+* Software-defined networking
+
+### Rack Diagram
+
+* Metal frame used to contain different network hardware devices
+  * Servers
+  * Routers
+  * Switches
+  * Security devices
+
+### MDF/IDF Documentation
+
+* Main distribution frame
+* Intermediate distribution frame
+
+### Wiring Diagram
+
+* Connectors
+* Wiring
+* Devices
+
+### Site Survey Reports
+
+* Commonly used to survey wireless networks
+* Helps visualization
+  * Coverage areas
+  * Data rates
+
+### Network Audits and Assessments
+
+* Device support
+* Inventory
+* Architecture
+* Security
+
+### Baselines
+
+* Determine what is considered to be normal
+* Useful troubleshooting and planning
 
 ## Common Network Operations Agreements
 
+### Non-disclosure Agreement (NDA)
 
+* Legally binding contract
 
+### NDA Key Elements
 
+* Participants involved in the agreement
+* Length of agreement
+* What is considered to be confidential
+* Exclusions
+
+### Service Level Agreement (SLA)
+
+* Service provider
+* Customers
+
+### SLA Components
+
+* Objectives
+* Responsibilities
+* Scope
+* Performance metrics
+* Penalties
+
+### Memorandum of Understanding (MOU)
+
+* Helpful when establishing official partnerships
 
 ## Test
 

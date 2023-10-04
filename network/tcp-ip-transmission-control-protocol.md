@@ -33,7 +33,7 @@ NULL, FIN and Xmas scans generally used because of firewall evasion.
 * Before starting a TCP connection, the client and server must agree on two **initial sequence numbers (ISNs)**
   * The ISNs are different and random for every connection
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Sending and Receiving Data
 
