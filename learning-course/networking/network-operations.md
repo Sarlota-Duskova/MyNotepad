@@ -532,5 +532,55 @@ E.g. software upgrades
 
 ## Test
 
+**Which type of agreement would typically be implemented between two organizations who are forming an initial partnership?**
 
+* MOU
 
+**At which phase of an incident response plan would you detail the severity, priority, and root cause of a problem?**
+
+* Investigation
+
+**The process of Netflow intervening to produce an output for analysis is known as what?**
+
+* Active timeout
+
+**If your network monitoring consistently reveals packets that are 3000 bytes in size, which condition does that indicate?**
+
+* Giants
+
+**Which type of network documentation or diagram would indicate the means by which your building is wired?**
+
+* MDF/IDF
+
+**Which percentage of service uptime would you most likely see from a reputable network service provider?**
+
+* 99.9%
+
+**Which type of networking statistic would indicate that the integrity of a packet has been compromised?**
+
+* CRC errors
+
+**When determining a baseline for your network, which methods should be used?**
+
+* Gather at different times of day
+* Gather during both busy and slow times
+
+**Which type of network logging is primarily concerned with security-based events such as resource access?**
+
+* Audit
+
+**Which type of policy deals with attempting to ensure that confidential information is not leaked outside of your organization?**
+
+* Data loss prevention
+
+**If all users within your network report that they are unable to access the internet, which networking issue would be the most likely cause?**
+
+* DNS
+
+**The space between two racks that are rear facing each other is typically referred to in which manner?**
+
+* Hot aisle
+
+**The collection of all known attributes and values on a client device using SNMP is known as what?**
+
+* MIB
