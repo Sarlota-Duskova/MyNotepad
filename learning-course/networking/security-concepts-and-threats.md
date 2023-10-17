@@ -263,47 +263,262 @@
 
 ## Common Network Authentication Methods
 
+* Multifactor authentication (MFA)
+* Terminal Access Controller Access-Control System Plus (TACACS+)
+* Remote Authentication Dial-in User Service (RADIUS)
+* Single sign-on (SSO)
+* Lightweight Directory Access Protocol (LDAP)
+* Kerberos
+* Local authentication
+* 802.1X
+* Extensible Authentication Protocol (EAP)
 
+### Radius
+
+* Provides centralized authentication, authorization, and accounting for network service users
+
+### LDAP
+
+* Software protocol for locating network resources
+* Foundation for Active Directory and cloud-base directories
+* Binds a LDAP user to a LDAP server
+
+### Kerberos
+
+* Protocol for providing secure authentication using secret-key cryptography
+* Very common use in Windows
 
 ## Security Assessment Exercises
 
+* Network security measure used to find vulnerabilities
 
+### Security Assessment
 
-## Security Information and Event Management
+* Vulnerability assessment
+* Penetration test
 
+### General Security Assessment Steps
 
+* Inventory resources
+* Determine asset vulnerability
+* Test defenses
+* Remediate weak points
+* Monitor security continuously
+
+## Security Information and Event Management (SIEM)
+
+* Combines security event management (SEM) with security information management (SIM)
+* Reporting on security events and incidents
+* Alerting on potential security issues and store for analysis
+* Threat intelligence
+* Security analytics
+* Machine learning
+* IT governance
+* Automated remediation
+
+### Enterprise SIEM
+
+* Generally used by large organizations
+* High annual cost
+* Software-as-a-service offering
+* Usually run on-premises due to sensitive data
 
 ## Common Technology-based Attacks
 
+### Network Attack
 
+* Unauthorized network access with objective to steal information or perform harmful activities
+* Passive (steal data without changing) and active (changing, removing, or harming data)
 
+### Common Network Attacks
 
+* Unauthorized access
+* DDoS
+* Man in the middle
+* Code and SQL injection
+* Privilege escalation
+* Insider threats
+
+### &#x20;Common Technology-based Attacks
+
+* DNS poisoning
+* VLAN hopping
+* ARP spoofing
+* Rogue DHCP
+* Rogue access point
+* Evil twin
+* Brute-force
+* Dictionary
+* MAC spoofing
+* IP spoofing
+* Deauthentication
+
+### Best Practices for Network Protection
+
+* Network segragation
+* Regulated Internet access through Proxy servers
+* Use security devices
+* Secure wireless networks
+* Regularly apply updates
 
 ## Ransomware Attacks
 
+* Malware used by attacker to encrypt files, allowing them to then demand a ransom to restore the files
 
+### Ransomware
+
+* Commonly accesses computers via phishing
+* May contain social engineering tools
+* Encrypted files are held for ransom
+* Decryption requires the key held only by the attacker
+
+### Ransomware Targets
+
+* Universities and colleges
+* Hospitals and medical facilities
+* Low firms and government offices
+
+### Preventing Ransomware Attacks
+
+* Keep up with OS patches and updates
+* Be cautious about giving software admin privileges
+* Install antimalware software
+* Regularly back up files
 
 ## Common Malware Attacks
 
+### Malware
 
+* Cyber attack where malicious software performs harmful actions on a system
+* Includes ransomware, spyware, and command and control
+
+### Aspects of Malware
+
+* Objective
+* Delivery
+* Concealment
+
+### Malware Objectives
+
+* Stealing data
+* Disrupting operations
+* Extorting payment
+
+### Malware Attack Vectors
+
+* Trojan horse
+* Virus
+* Worm
+
+### Malware Prevention
+
+* Install an antimalware application
+* Ongoing education of users
+* Prioritizing network security
+* Performing security audits regularly
+* Performing and verifying backups regularly
 
 ## On-path Attacks
 
+* Intercept/modify communication between two devices
+* Steal data or impresonate agents
+* Target e-mail, DNS lookups, and public Wi-Fi
 
+### E-mail Hijacking
 
+* Attackers insert themselves between e-mail server and the web and monitor e-mail communications
 
+### Public Wi-Fi Risks
+
+* Cloned Wi-Fi networks
+* User's online activity is monitored
+
+### Protecting against On-path Attackers
+
+* SSL/TLS
+* Authentication certificates
+* Secure/Multipurpose Internet Mail Extensions (S/MIME)
+* Virtual Private Network (VPN)
 
 ## Common Password Security Attacks
 
+* Brute force
+* Dictionary
+* Phishing
+* Rainbow table
+* Credential stuffing
+* Password spraying
+* Keyloggers
 
+### Brute Force Attack
 
+* Easiest for attackers
+* Attackers tries all possible password combinations to access a user account
+* Easy to guess passwords and usernames
 
+### Dictionary Attack
+
+* Attacker programmatically cycles through common words to discover password
+
+### Phishing
+
+* Disguised in e-mails that appear lefitimate
+* Claim suspicious activity has been detected
+* Alternatively obtain private user information, which may help in guessing passwords
+
+### Rainbow Table Attack
+
+* Uses mathematical equations to hask algorithm password combinations to discover passwords
+
+### Credential Stuffing
+
+* Stolen usernames and passwords are tried in varying combinations until a match is found
+* Assumes users have the same passwords for multiple accounts
+
+### Password Spraying
+
+* Attack attempts to match millions of accounts with commonly used passwords
+
+### Keylogger Attack
+
+* Attacker installs program that logs all user keystrokes
 
 ## Denial of Service Attacks
 
+* Server is flooded with packets or requests until it becomes overwhelmed
 
+### Distributed Denial of Service
 
+* Multiple systems launch DoS attacks on one system
 
+### Categories
+
+* Volumetric
+* Fragmentation
+* TCP state exhaustion
+* Application layer
+
+### Forms
+
+* Ping of death (ICMP flood)
+* UDP flood
+* SYN (TCP) flood
+* HTTP flood
+* Teardrop
+
+### Reasons for DoS and DDoS Attacks
+
+* Disgruntled employees
+* Competitors
+* Hacktivism
+* Ransom
+* Troublemaking
+
+### Minimizing Attack Damage
+
+* Network monitoring
+* Simulated attacks
+* Post-attack plan
 
 ## Social Engineering Attacks
 
@@ -329,23 +544,75 @@
 
 ## Test
 
+**Which common technology-based attack presents a false wireless network to users?**
 
+* Evil twin
 
+**Security cameras would be considered which type of control in the defence-in-depth model?**
 
+* Physical
 
+**Which statement or scenario best describes the zero-trust security model?**
 
+* No one should be trusted
 
+**Security Information and Event Management applications would be analogous to which type of operation or process?**
 
+* Writing records to an operational database and querying a data warehouse simultaneously
 
+**Which mitigation technique can be used to enhance the security of your email by ensuring that only the intended recipient can access a message, and be assured that the message was not altered?**
 
+* S/MIME
 
+**When or where would you be most likely to encounter a default password?**
 
+* On a router or a firewall
 
+**Which type of external attack is implemented by targeting a specific user or organization with social engineering tactics?**
 
+* Spear phishing
 
+**Which type of malware is capable of self-propagation and is most commonly spread via email?**
 
+* Worm
 
+**Which statements correctly characterize vulnerability assessments and penetration tests?**
 
+* A penetration test attempts to breach your security
+* Vulnerability assessments are generally performed to gather information only
 
+**Which type of password attack works on the assumption that a weak password is being used within an organization?**
 
+* Password spraying
 
+**Which authentication method is based on using keys and tickets?**
+
+* Kerberos
+
+**A zero-day vulnerability is characterized by which aspect or component?**
+
+* They have no current patch or fix
+
+**Which approach to implementing the principle of least privilege grants only the necessary level of access, only when it is necessary?**
+
+* Just-in-time privileges
+
+**Which mitigation technique is most capable of defeating a ransomware attack?**
+
+* Performing regular backups
+
+**Leaving a flash drive labelled “Confidential” that actually contains malware, in an easily found location would be classified as which type of social engineering?**
+
+* Baiting
+
+**Which type of Denial-of-Service attack is based on fragmented packets that cannot be reassembled?**
+
+* Teardrop
+
+**Which component of role-based access control gives a user the abilities of a role?**
+
+* Management role assignment
+
+**In the CIA triad, integrity refers to which aspect of information protection?**
+
+* Ensuring that an original version is not modified
