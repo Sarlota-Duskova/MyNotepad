@@ -3,6 +3,11 @@
 **Communicating remotely**
 
 * TELNET (Teletype Network) is an application network protocol that enables user communication with a remote computer via a text-based interface.
+  *   Telnet is a network protocol that allows a user to remotely access and control another computer over the Internet or local area network (LAN). It enables a user to establish a connection to a remote system and perform tasks as if they were sitting in front of that computer.
+
+      It is a client-server protocol, which means that a client device initiates the connection to a server device. The client sends commands to the server, and the server responds with output, allowing the user to interact with the remote system’s command-line interface. It uses the Transmission Control Protocol (TCP) as its underlying transport protocol.
+
+      One of the key features of Telnet is that it is platform-independent, which means that it can be used to connect to a variety of different operating systems and computers. Therefore, it is a valuable tool for system administrators and developers who need to manage remote systems from different locations.
 * SSH (secure shell)
 * VPN (virtual private network) for connecting.
 

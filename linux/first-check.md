@@ -7,3 +7,5 @@
 `sudo -l`
 
 `find / -exec fgrep 'CTF' {} \; 2>/dev/null`
+
+[`https://gtfobins.github.io/`](https://gtfobins.github.io/)
